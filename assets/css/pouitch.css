@@ -1,0 +1,31 @@
+html, body {
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+body {
+  position: relative;
+}
+
+#header {
+  background-color: purple;
+  height: 50px;
+}
+
+#left-column {
+  background-color: indigo;
+  display: inline-block;
+  left: 0;
+  width: 20%;
+}
+
+#left-column,
+#main-column,
+#right-column {
+  bottom: 0;
+  position: absolute;
+  top: 50px;
+}
