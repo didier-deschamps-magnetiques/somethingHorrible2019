@@ -1,6 +1,5 @@
-console.debug(Game)
-
 document.addEventListener('DOMContentLoaded', () => {
-  const game = new Game();
-  game.init(document.getElementById('main-column'));
+  const container = document.getElementById('main-column');
+  const game = new Game(container);
+  game.init();
 });

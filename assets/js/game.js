@@ -13,6 +13,6 @@ const Game = class Game {
     this.dom.style.width = "calc(100% - 40px)";
     this.dom.style.height = "calc(100vw - 40% - 40px)";
 
-    this.
+    this.container.appendChild(this.dom);
   }
 }
