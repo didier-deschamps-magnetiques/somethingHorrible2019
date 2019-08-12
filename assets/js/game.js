@@ -7,20 +7,15 @@ const Game = class Game {
     }
   }
 
-  // stream height must be computed from its dynamic width
-  findHeight() {
-    const width = this.dom.getBoundingClientRect().width;
-
-    return width * 9 / 16;
-  }
-
   init() {
+    const width = Math.floor(this.container.getBoundingClientRect().width) - 40;
+    const height = Math.floor(width * 9 / 16);
+
     // apply styles
     this.dom.style.backgroundColor = "black";
-    this.dom.style.width = "calc(100% - 40px)";
-    // get stream input height programmatically
-    //this.dom.style.height = `${this.dom.getBoundingClientRect().width * 9 / 16}px`;
-    this.dom.style.height = `${this.findHeight()}px`;
+
+    this.dom.style.width = `${width}px`;
+    this.dom.style.height = `${height}px`;
 
     this.container.appendChild(this.dom);
   }
