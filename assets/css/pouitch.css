@@ -42,3 +42,20 @@ body {
   right: 0;
   width: 20%;
 }
+
+#chat {
+  bottom: 20px;
+  display: block;
+  left: 20px;
+  list-style-type: none;
+  margin: 0;
+  overflow-y: scroll;
+  padding: 0;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+#chat > li {
+  display: block;
+}

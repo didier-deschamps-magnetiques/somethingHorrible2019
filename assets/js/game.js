@@ -17,6 +17,7 @@ const Game = class Game {
     this.dom.style.width = `${width}px`;
     this.dom.style.height = `${height}px`;
 
+    this.dom.id = `game`;
     this.container.appendChild(this.dom);
   }
 }
