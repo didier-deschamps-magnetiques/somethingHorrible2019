@@ -10,7 +10,16 @@ const Chat = class Chat {
       'Rabbitoku',
       'StarCitizen2012',
       'Lapinte',
-      'HareAkiri'
+      'HareAkiri',
+      'XmasRansomware',
+      'IvanGuedin',
+      'CouenneLust',
+      'Ackbooyave',
+      'EllenPlayAgain',
+      'VazyFrankySébum',
+      'IzualCapone',
+      'TaMaman',
+      'anonyme',
     ];
 
     this.sentences = [
@@ -18,9 +27,20 @@ const Chat = class Chat {
       `lol`,
       `Ça a l'air bien nul`,
       `Moi je joue sur Mac.`,
-      `Je voulais faire un goat simulator avec des lapins, mais je sais pas dire lapin en anglais, j'étais bloqué à la création du titre`,
+      `Il sort quand Mount&Blade2 ?`,
       `Ça aurait été mieux avec Naruto en personnage principal`,
-      `DTC`
+      `DTC`,
+      `WTF!!!?!`,
+      `C'est une adaptation de quoi ?`,
+      `T'en penses quoi, toi, <em>${this.getRandomNick()}</em> ?`,
+      `Je vous proute…`,
+      `Des mamans en manque de bits dans ta région`,
+      `Mon jeu est mieux…`,
+      `Ce jeu est prévu sur Stadia`,
+      `Quand je pense que les studios d'Amazon n'ont même pas réussi à sortir un jeu comme ça…`,
+      `C'est compatible ray tracer ?`,
+      `Y a des lootboxes ?`,
+      `J'ai trouvé un jeu fait par <em>${this.getRandomNick()}</em> dans les poubelles de Steam !`,
     ];
   }
 
@@ -32,17 +52,18 @@ const Chat = class Chat {
   }
 
   addSentence(text) {
-    const nick = text ? `<strong>vous</strong>` : this.getRandomNick();
-    const innerText = text ? text : this.getRandomSentence();
+    const nick = text ? `<span style="color: pink">Vous` : this.getRandomNick();
+    const innerText = text ? `text</span>` : this.getRandomSentence();
     const markup = document.createElement('li');
-    console.log(markup);
-    markup.innerText = `${nick} : ${innerText}`;
+
+    markup.innerHTML = `<strong>${nick}</strong> : ${innerText}`;
+
     this.dom.appendChild(markup);
   }
 
   init() {
     this.dom.id = `chat`;
     this.container.appendChild(this.dom);
-    setInterval(this.addSentence, 1000);
+    setInterval(this.addSentence.bind(this), 2500);
   }
 }
