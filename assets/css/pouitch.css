@@ -45,19 +45,40 @@ body {
   width: 20%;
 }
 
-#chat {
-  bottom: 20px;
+#chat,
+#chat > h2,
+#chat > ul,
+#chat > ul > li,
+#chat > input {
   display: block;
-  left: 20px;
-  list-style-type: none;
   margin: 0;
-  overflow-y: scroll;
-  padding: 0;
-  position: absolute;
-  right: 20px;
-  top: 20px;
 }
 
-#chat > li {
-  display: block;
+#chat {
+  background-color: teal;
+}
+
+#chat > h2 {
+  background-color: white;
+  text-align: center;
+}
+
+#chat > ul {
+  background-color: cyan;
+  list-style-type: none;
+  padding: 0 20px;
+  width: calc(100% - 40px);
+}
+
+#chat > ul > li {
+  background-color: transparent;
+  margin: 5px 0;
+}
+
+#chat > ul > li + li {
+  border-top: solid lightgrey 1px;
+}
+
+#chat > input {
+  background-color: yellow;
 }
