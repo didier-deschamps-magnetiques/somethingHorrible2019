@@ -5,6 +5,20 @@ const Chat = class Chat {
     this.list = document.createElement('ul');
     this.head = document.createElement('h2');
     this.submit = document.createElement('input');
+    this.nicks = [
+      'IvanLeFou',
+      'KahnLust',
+      'Izual',
+      'NoëlMalware',
+      'EllenReplay',
+      'Ackboo',
+      'LouisFerdinandSebum',
+      'Alt236',
+      'TotoLaDéglingue',
+      'Fishbone',
+      'DocTeraboule',
+      'DidierDeschampsMagnétiques',
+    ];
 
     this.events = {
       start: new CustomEvent('start', {...this})
@@ -12,8 +26,9 @@ const Chat = class Chat {
   }
 
   getRandomNick() {
-    return Data.nicks[Math.floor(Math.random()*Data.nicks.length)];
+    return this.nicks[Math.floor(Math.random()*this.nicks.length)];
   }
+
   getRandomSentence() {
     return Data.sentences[Math.floor(Math.random()*Data.sentences.length)];
   }
@@ -28,7 +43,21 @@ const Chat = class Chat {
     this.list.appendChild(markup);
   }
 
+  generateUsersList(total) {
+    const loopLength = total - this.nicks.length;
+
+
+    for(let i = 0; i < loopLength; i++) {
+      let pickedAnimal = Data.animals[Math.floor(Math.random()*Data.animals.length)];
+      let left = pickedAnimal.name;
+      let right = Data.adjectives[Math.floor(Math.random()*Data.adjectives.length)][pickedAnimal.gender];
+      this.nicks.push(left + right.charAt(0).toUpperCase() + right.slice(1));
+    }
+  }
+
   init() {
+    this.generateUsersList(25);
+
     this.dom.id = `chat`;
     this.container.appendChild(this.dom);
 

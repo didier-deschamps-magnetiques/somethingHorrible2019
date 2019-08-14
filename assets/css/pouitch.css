@@ -20,8 +20,6 @@ body {
 #right-column {
   bottom: 0;
   position: absolute;
-  scroolbar-color: rgba(0, 0, 0, 0.25);
-  scrollbar-width: thin;
   top: 50px;
 }
 
