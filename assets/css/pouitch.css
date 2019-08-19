@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   box-sizing: border-box;
   height: 100vh;
   margin: 0;
@@ -58,6 +59,7 @@ body {
 
 #chat > h2 {
   background-color: white;
+  height: 50px;
   text-align: center;
 }
 
