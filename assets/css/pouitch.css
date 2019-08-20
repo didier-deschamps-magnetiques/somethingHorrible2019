@@ -1,6 +1,7 @@
 html,
 body {
   box-sizing: border-box;
+  font-family: "Verdana", sans-serif;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -12,7 +13,7 @@ body {
 }
 
 #header {
-  background-color: purple;
+  background: purple url("../img/logo.png") 0 0 no-repeat;
   height: 50px;
 }
 
@@ -29,6 +30,40 @@ body {
   display: inline-block;
   left: 0;
   width: 20%;
+}
+
+#left-column h3,
+#left-column h4 {
+  margin: 0;
+}
+
+#left-column h3 {
+  color: grey;
+  font-size: 14px;
+}
+
+#left-column h4 {
+  color: lightgrey;
+  font-size: 9px;
+}
+
+#left-column ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+#left-column li {
+  clear: both;
+  padding: 10px;
+}
+
+#left-column img {
+  border: solid 2px white;
+  border-radius: 21px;
+  float: left;
+  height: 25px;
+  margin: 0 10px 0 0;
+  width: 25px;
 }
 
 #main-column {
