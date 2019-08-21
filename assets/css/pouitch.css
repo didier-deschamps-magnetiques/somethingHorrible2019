@@ -1,0 +1,119 @@
+html,
+body {
+  box-sizing: border-box;
+  font-family: "Verdana", sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+body {
+  position: relative;
+}
+
+#header {
+  background: purple url("../img/logo.png") 0 0 no-repeat;
+  height: 50px;
+}
+
+#left-column,
+#main-column,
+#right-column {
+  bottom: 0;
+  position: absolute;
+  top: 50px;
+}
+
+#left-column {
+  background-color: indigo;
+  display: inline-block;
+  left: 0;
+  width: 20%;
+}
+
+#left-column h3,
+#left-column h4 {
+  margin: 0;
+}
+
+#left-column h3 {
+  color: grey;
+  font-size: 14px;
+}
+
+#left-column h4 {
+  color: lightgrey;
+  font-size: 9px;
+}
+
+#left-column ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+#left-column li {
+  clear: both;
+  padding: 10px;
+}
+
+#left-column img {
+  border: solid 2px white;
+  border-radius: 21px;
+  float: left;
+  height: 25px;
+  margin: 0 10px 0 0;
+  width: 25px;
+}
+
+#main-column {
+  background-color: lightgrey;
+  left: 20%;
+  padding: 20px;
+  right: 20%;
+}
+
+#right-column {
+  background-color: grey;
+  right: 0;
+  width: 20%;
+}
+
+#chat,
+#chat > h2,
+#chat > ul,
+#chat > ul > li,
+#chat > input {
+  display: block;
+  margin: 0;
+}
+
+#chat {
+  background-color: teal;
+}
+
+#chat > h2 {
+  background-color: white;
+  height: 50px;
+  text-align: center;
+}
+
+#chat > ul {
+  background-color: cyan;
+  list-style-type: none;
+  padding: 0 20px;
+  width: calc(100% - 40px);
+}
+
+#chat > ul > li {
+  background-color: transparent;
+  margin: 5px 0;
+}
+
+#chat > ul > li + li {
+  border-top: solid lightgrey 1px;
+}
+
+#chat > input {
+  background-color: yellow;
+}
