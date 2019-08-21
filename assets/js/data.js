@@ -19,7 +19,7 @@ const Data = {
     `Y a des lootboxes ?`,
     `J'ai trouvé un jeu fait par <em>::name::</em> dans les poubelles de Steam !`,
     `Quand je pense qu'on aurait pu apprendre à jouer du piano au lieu de perdre notre temps là dessus…`,
-    `C'est à mettre dans le seau à caca de Noël Malware`
+    `C'est à mettre dans le seau à caca de <em>Noël Malware</em>`
   ],
   animals: [
     {
@@ -221,8 +221,9 @@ const Data = {
       `Star Citizen`,
       `Diablo`,
       `Overwatch`,
-      `Tractopelle`,
-      `Camion Poubelle`,
+      `Tractopelle Simulator`,
+      `Tunnelier Simulator`,
+      `Camion Poubelle Simulator`,
       `Starcraft`,
       `League of Legends`,
       `Just Dance`,
@@ -240,7 +241,6 @@ const Data = {
       `Black Ops`,
       `Battlegrounds`,
       `Tycoon`,
-      `Simulator`,
       `Reloaded`,
       `GOTY`,
       `(beta)`,
