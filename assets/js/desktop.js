@@ -11,12 +11,12 @@ const Desktop = class Desktop {
     // apply styles
     this.dom.id = `desktop`;
     this.container.appendChild(this.dom);
+
     this.dom.addEventListener("click", ev => {
-      console.debug(ev.target);
       if (!ev.target.classList.contains("big")) {
         ev.target.classList.add("big");
-        const sibling = ev.target.parentElement.getElementById("streamers");
-        console.debug(sibling);
+        const sibling = ev.target.parentElement.querySelector(".big");
+        sibling.classList.remove("big");
       }
     });
   }

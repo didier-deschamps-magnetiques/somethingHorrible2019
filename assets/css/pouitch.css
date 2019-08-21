@@ -95,20 +95,30 @@ body {
   right: 20%;
 }
 
-#main-column #desktop {
-  background: url("../img/wallpaper.png") no-repeat;
+#main-column #game > div {
+  position: absolute;
+  transition: left 1s, right 1s, width 1s, height 1s, border 0.5s;
+}
+
+#main-column #game > div:not(.big) {
   background-size: cover;
   border: solid white 5px;
   bottom: 20px;
   height: 20%;
   left: 20px;
-  position: absolute;
-  transition: left 1s, right 1s, width 1s, height 1s, border 0.5s;
   width: 20%;
   z-index: 2;
 }
 
-#main-column #desktop.big {
+#main-column #desktop {
+  background: url("../img/wallpaper.png") no-repeat;
+}
+
+#main-column #streamers {
+  background-color: pink;
+}
+
+#main-column .big {
   border: none;
   bottom: 0;
   height: 100%;
