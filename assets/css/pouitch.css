@@ -66,11 +66,55 @@ body {
   width: 25px;
 }
 
+#left-column .viewersCount {
+  color: white;
+  font-size: 8px;
+  padding-left: 20px;
+  position: relative;
+}
+
+#left-column .viewersCount::before {
+  background-color: red;
+  border: solid white 1px;
+  border-radius: 4px;
+  content: '';
+  display: block;
+  left: 10px;
+  height: 5px;
+  margin-right: 4px;
+  position: absolute;
+  top: 1px;
+  width: 5px;
+}
+
 #main-column {
   background-color: lightgrey;
   left: 20%;
   padding: 20px;
+  position: absolute;
   right: 20%;
+}
+
+#main-column #desktop {
+  background: url("../img/wallpaper.png") no-repeat;
+  background-size: cover;
+  border: solid white 5px;
+  bottom: 20px;
+  height: 20%;
+  left: 20px;
+  position: absolute;
+  transition: left 1s, right 1s, width 1s, height 1s, border 0.5s;
+  width: 20%;
+  z-index: 2;
+}
+
+#main-column #desktop.big {
+  border: none;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 #right-column {

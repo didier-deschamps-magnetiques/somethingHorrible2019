@@ -6,8 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const game = new Game(gameContainer);
   const chat = new Chat(chatContainer);
   const streams = new Streams(streamsContainer);
+  const desktop = new Desktop(game.dom);
 
   game.init();
+  desktop.init();
   chat.init();
   streams.init();
 });
