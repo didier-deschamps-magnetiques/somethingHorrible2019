@@ -4,7 +4,7 @@ const Streams = class Streams {
     this.dom = document.createElement("div");
     this.list = document.createElement("ul");
     this.head = document.createElement("h2");
-    this.streamsMaxLength = 6;
+    this.streamsMaxLength = 8;
   }
 
   generateRandomStreamName() {
