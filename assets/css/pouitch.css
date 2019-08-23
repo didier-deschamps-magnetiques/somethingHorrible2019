@@ -96,12 +96,12 @@ body {
 }
 
 #main-column #game > div {
+  background-size: cover;
   position: absolute;
   transition: left 1s, right 1s, width 1s, height 1s, border 0.5s;
 }
 
 #main-column #game > div:not(.big) {
-  background-size: cover;
   border: solid white 5px;
   bottom: 20px;
   height: 20%;
@@ -114,8 +114,8 @@ body {
   background: url("../img/wallpaper.png") no-repeat;
 }
 
-#main-column #streamers {
-  background-color: pink;
+#main-column #stream {
+  background: url("../img/streamers.gif") no-repeat;
 }
 
 #main-column .big {

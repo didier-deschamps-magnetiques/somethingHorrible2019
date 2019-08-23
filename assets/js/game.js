@@ -12,7 +12,6 @@ const Game = class Game {
     this.dom.style.backgroundColor = "black";
 
     this.dom.id = `game`;
-    this.dom.innerHTML = '<!--temp--><div id="streamers" class="big"></div><!--temp-->';
     this.container.appendChild(this.dom);
   }
 };
