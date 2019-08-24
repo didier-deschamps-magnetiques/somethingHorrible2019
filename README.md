@@ -17,3 +17,7 @@ This game is licenced under the [WTFPL](http://www.wtfpl.net)
    TERMS AND CONDITIONS FOR COPYING, DISTRI```BUTION AND MODIFICATION
 
   0. You just DO WHAT THE FUCK YOU WANT TO```
+
+## third party assets
+- Icons:
+  - _Titanic's icon_ from [PNGIMG](pngimg.com) under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) licence
