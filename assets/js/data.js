@@ -11,7 +11,6 @@ const Data = {
     `C'est une adaptation de quoi ?`,
     `T'en penses quoi, toi, <em>::name::</em> ?`,
     `Je vous proute…`,
-    `Des mamans en manque de bits dans ta région`,
     `Mon jeu est mieux…`,
     `Ce jeu est prévu sur Stadia`,
     `Quand je pense que les studios d'Amazon n'ont même pas réussi à sortir un jeu comme ça…`,
