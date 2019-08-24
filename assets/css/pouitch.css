@@ -43,8 +43,13 @@ body {
 }
 
 #left-column h4 {
-  color: lightgrey;
+  color: white;
   font-size: 9px;
+  font-weight: normal;
+}
+
+#left-column h4 span {
+  color: darkgrey;
 }
 
 #left-column ul {
