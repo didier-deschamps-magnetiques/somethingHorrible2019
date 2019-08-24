@@ -22,4 +22,4 @@ This game is licenced under the [WTFPL](http://www.wtfpl.net)
 
 ## third party assets
 - Icons:
-  - _Titanic's icon_ from [PNGIMG](pngimg.com) under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) licence
+  - _Titanic's icon_ from [PNGIMG](http://www.pngimg.com) under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) licence
