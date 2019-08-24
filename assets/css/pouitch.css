@@ -119,6 +119,28 @@ body {
   background: url("../img/wallpaper.png") no-repeat;
 }
 
+#main-column #desktop .game {
+  float: left;
+  padding: 1%;
+  position: relative;
+  width: 5%;
+}
+
+#main-column #desktop .icon {
+  height: auto;
+  width: 100%;
+}
+
+#main-column #desktop .label {
+  font-size: 4px;
+}
+
+#main-column #desktop.big .label {
+  display: block;
+  font-size: 10px;
+  text-align: center;
+}
+
 #main-column #stream {
   background: url("../img/streamers.gif") no-repeat;
 }

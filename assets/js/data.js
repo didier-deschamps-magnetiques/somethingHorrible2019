@@ -273,5 +273,34 @@ const Data = {
     "Marvel",
     "Heat",
     "Feet"
+  ],
+  submissions: [
+    {
+      name: "Titanic",
+      icon: "titanic.png",
+      comments: [
+        {
+          streamer: "Polynette",
+          advice: [
+            {
+              label: "keur",
+              value: 1
+            },
+            {
+              label: "keur keur",
+              value: 2
+            },
+            {
+              label: "keur keur keur",
+              value: 3
+            },
+            {
+              label: "keur keur keur keur",
+              value: 4
+            }
+          ]
+        }
+      ]
+    }
   ]
 };
