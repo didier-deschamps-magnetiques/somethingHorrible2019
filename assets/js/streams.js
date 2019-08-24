@@ -39,7 +39,7 @@ const Streams = class Streams {
     const baseViewerCount = Math.floor(1 + Math.random() * 5000) + threshold * this.streamsMaxLength + 1000;
 
     for (let i = 0; i < this.streamsMaxLength; i++) {
-      this.list.innerHTML += `<li><img class="streamerPhoto" src="https://lorempixel.com/50/50/sports/${i}" /><h3 class="streamerTag">${this.generateRandomStreamerTag()}${this.generateRandomStreamerTag()}${this.generateRandomStreamerTag()}</h3><h4 class="gameName">${this.generateRandomStreamName()}<span class="viewersCount">${baseViewerCount - Math.floor(threshold * i)}</span></h4></li>`;
+      this.list.innerHTML += `<li><img class="streamerPhoto" src="https://lorempixel.com/50/50/sports/${i}" /><h3 class="streamerTag">${this.generateRandomStreamerTag()}${this.generateRandomStreamerTag()}${this.generateRandomStreamerTag()}</h3><h4 class="gameName"><span>Joue à </span>${this.generateRandomStreamName()}<span class="viewersCount">${baseViewerCount - Math.floor(threshold * i)}</span></h4></li>`;
     }
     this.dom.appendChild(this.list);
   }
