@@ -27,16 +27,21 @@ const Desktop = class Desktop {
       const icon = document.createElement("img");
       const name = document.createElement("span");
 
+      const videoGame = new VideoGame(submission.game);
+
       game.classList.add('game');
 
       icon.src = `./assets/icons/${submission.icon}`;
       icon.classList.add('icon');
+      icon.addEventListener('click', videoGame.start);
 
       name.innerText = submission.name;
       name.classList.add('label');
 
       game.appendChild(icon);
       game.appendChild(name);
+
+
 
       desktop.appendChild(game);
     });

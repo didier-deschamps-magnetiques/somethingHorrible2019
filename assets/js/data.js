@@ -278,6 +278,7 @@ const Data = {
     {
       name: "Titanic",
       icon: "titanic.png",
+      video: "titanic.mp4",
       comments: [
         {
           streamer: "Polynette",
