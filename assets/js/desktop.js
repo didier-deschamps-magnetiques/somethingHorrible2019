@@ -27,13 +27,16 @@ const Desktop = class Desktop {
       const icon = document.createElement("img");
       const name = document.createElement("span");
 
-      const videoGame = new VideoGame(submission.game);
+      const videoGame = new VideoGame(submission.name);
+      const container = this.container;
 
       game.classList.add('game');
+      game.addEventListener('click', () => {
+        videoGame.start(submission, container);
+      });
 
       icon.src = `./assets/icons/${submission.icon}`;
       icon.classList.add('icon');
-      icon.addEventListener('click', videoGame.start);
 
       name.innerText = submission.name;
       name.classList.add('label');

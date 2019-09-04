@@ -16,10 +16,17 @@ const VideoGame = class VideoGame {
     return vgData;
   }
 
-  start(gameData) {
+  start(gameData, container) {
     const data = this.getVideoGameData(this.name);
     this.player.src = `./assets/videos/${data.video}`;
     this.player.type = `${data.video.split('.')[1]}`;
-    document.body.innerHTML = this.player;
+    this.player.autoplay = true;
+    this.player.id = "video-player";
+    this.player.addEventListener('ended', () => {
+      this.player.remove();
+      document.getElementById('stream').click();
+    });
+
+    container.parentElement.appendChild(this.player);
   }
 };

@@ -100,10 +100,19 @@ body {
   right: 20%;
 }
 
-#main-column #game > div {
+#main-column #game > div,
+#main-column #video-player {
   background-size: cover;
   position: absolute;
   transition: left 1s, right 1s, width 1s, height 1s, border 0.5s;
+}
+
+#main-column #video-player {
+  background-color: black;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
 #main-column #game > div:not(.big) {
@@ -112,11 +121,17 @@ body {
   height: 20%;
   left: 20px;
   width: 20%;
-  z-index: 2;
+  z-index: 3;
 }
 
 #main-column #desktop {
   background: url("../img/wallpaper.png") no-repeat;
+}
+
+#main-column #video-player {
+  border: none;
+  position absolute;
+  z-index: 2;
 }
 
 #main-column #desktop .game {
