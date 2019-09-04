@@ -31,7 +31,7 @@ const Desktop = class Desktop {
       const container = this.container;
 
       game.classList.add('game');
-      game.addEventListener('click', () => {
+      game.addEventListener('dblclick', () => {
         videoGame.start(submission, container);
       });
 
