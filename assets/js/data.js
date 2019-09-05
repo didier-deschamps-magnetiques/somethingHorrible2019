@@ -279,10 +279,10 @@ const Data = {
       name: "Titanic",
       icon: "titanic.png",
       video: "titanic.mp4",
-      comments: [
+      juries: [
         {
-          streamer: "Polynette",
-          advice: [
+          name: "Polynette",
+          rating: [
             {
               label: "keur",
               value: 1
