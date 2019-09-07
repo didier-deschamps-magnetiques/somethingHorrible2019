@@ -18,7 +18,8 @@ const Data = {
     `Y a des lootboxes ?`,
     `J'ai trouvé un jeu fait par <em>::name::</em> dans les poubelles de Steam !`,
     `Quand je pense qu'on aurait pu apprendre à jouer du piano au lieu de perdre notre temps là dessus…`,
-    `C'est à mettre dans le seau à caca de <em>Noël Malware</em>`
+    `C'est à mettre dans le seau à caca de <em>Noël Malware</em>`,
+    `Il paraît qu'il a payé Ninja pour qu'il stream ce jeu…`
   ],
   animals: [
     {
