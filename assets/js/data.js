@@ -282,7 +282,7 @@ const Data = {
       juries: [
         {
           name: "Polynette",
-          rating: [
+          ratings: [
             {
               label: "keur",
               value: 1

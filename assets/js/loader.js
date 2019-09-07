@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
     game: true,
     stream: true,
     desktop: true,
-    chat: true,
-    streams: true,
+    chat: false,
+    streams: false,
   };
   const gameContainer = document.getElementById("main-column");
   const chatContainer = document.getElementById("right-column");
