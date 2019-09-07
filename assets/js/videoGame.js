@@ -21,15 +21,22 @@ const VideoGame = class VideoGame {
       const element = document.createElement('li');
       element.innerHTML = jury.name;
 
-      element.addEventListener('click', (e) => {
-        this.container.id = 'ratings';
+      element.addEventListener('click', () => {
+        container.id = 'ratings';
         container.innerHTML = '';
-        title.innerText = `Vous en avez pensé quoi de ${this.name} ?`;
+        title.innerHTML = `Qu'est ce que <strong style="color: teal;">${jury.name}</strong> a pensé de <strong style="color: pink;">${this.name}</strong> ?`;
+        title.id = 'rating-choice-title';
+
         container.appendChild(title);
 
-        this.jury.ratings.forEach((rating) => {
+        jury.ratings.forEach((rating) => {
           const choice = document.createElement('li');
           choice.innerText = rating.label;
+          choice.addEventListener('click', () => {
+            this.rating = rating.value;
+            alert(`la note de ${this.rating} a été attribuée.`);
+            container.remove();
+          });
 
           container.appendChild(choice);
         });

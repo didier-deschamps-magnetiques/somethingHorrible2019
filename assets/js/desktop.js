@@ -32,7 +32,6 @@ const Desktop = class Desktop {
 
       game.classList.add('game');
       game.addEventListener('dblclick', () => {
-        /* TEMP / videoGame.rateGame();*/
         videoGame.start(submission);
       });
 

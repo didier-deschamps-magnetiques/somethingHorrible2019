@@ -169,7 +169,8 @@ body {
   z-index: 1;
 }
 
-#main-column #juries {
+#main-column #juries,
+#main-column #ratings {
   background-color: rgba(0, 0, 0, .75);
   height: 100%;
   left: 0;
@@ -179,7 +180,30 @@ body {
   text-align: center;
   top: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 4;
+}
+
+#main-column #juries li,
+#main-column #ratings li {
+  display: block;
+  font-weight: bolder;
+  height: 50px;
+  margin: 50px 25% 0;
+  position: relative;
+  width: 50%;
+}
+
+#main-column #juries li::before,
+#main-column #juries li::after,
+#main-column #ratings li::before,
+#main-column #ratings li::after {
+  border-style: solid;
+  border-width: 25px;
+  border-color: transparent;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
 }
 
 #main-column #juries li#jury-choice-title {
@@ -197,16 +221,62 @@ body {
   left: 100%;
 }
 
+#main-column #ratings li#rating-choice-title {
+  float: none;
+  font-size: 14px;
+  margin: 50px auto 0;
+}
+
+#main-column #ratings li {
+  background-color: blue;
+  color: red;
+  float: left;
+  font-size: 16px;
+  margin: 50px 10% 0;
+  width: 30%;
+}
+
+#main-column #ratings li::before,
+#main-column #ratings li::after {
+  border-style: solid;
+  border-width: 25px;
+  border-color: transparent;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+}
+
+#main-column #ratings li::before {
+  border-right-color: blue;
+  right: 100%;
+}
+
+#main-column #ratings li::after {
+  border-left-color: blue;
+  left: 100%;
+}
+
+#main-column #ratings li#rating-choice-title {
+  background-color: red;
+  color: blue;
+}
+
+#main-column #ratings li#rating-choice-title::before {
+  border-right-color: red;
+  right: 100%;
+}
+
+#main-column #ratings li#rating-choice-title::after {
+  border-left-color: red;
+  left: 100%;
+}
+
 #main-column #juries li {
   background-color: yellow;
   color: magenta;
-  display: block;
   font-size: 32px;
-  font-weight: bolder;
-  height: 50px;
   margin: 50px 25% 0;
-  position: relative;
-  width: 50%;
 }
 
 #main-column #juries li::before,

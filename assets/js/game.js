@@ -5,6 +5,7 @@ const Game = class Game {
     this.events = {
       start: new CustomEvent("start", { ...this })
     };
+    this.ratings = [];
   }
 
   init() {
