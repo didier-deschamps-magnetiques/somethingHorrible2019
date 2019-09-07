@@ -9,10 +9,13 @@ const VideoGame = class VideoGame {
 
   rateGame() {
     const gameData = this.submission;
-    const title = document.createElement('h3');
-    title.innerText = 'Choisissez votre juge :';
     const container = document.createElement('ul');
     container.id = 'juries';
+
+    const title = document.createElement('li');
+    title.id = 'jury-choice-title';
+    title.innerText = 'Choisissez votre juge :';
+    container.appendChild(title);
 
     gameData.juries.forEach((jury) => {
       const element = document.createElement('li');
@@ -35,10 +38,8 @@ const VideoGame = class VideoGame {
   }
 
   start(gameData, container) {
-    const data = this.getVideoGameData(this.name);
-
-    this.player.src = `./assets/videos/${data.video}`;
-    this.player.type = `${data.video.split('.')[1]}`;
+    this.player.src = `./assets/videos/${this.submission.video}`;
+    this.player.type = `${this.submission.video.split('.')[1]}`;
     this.player.autoplay = true;
     this.player.id = "video-player";
     this.player.addEventListener('ended', () => {

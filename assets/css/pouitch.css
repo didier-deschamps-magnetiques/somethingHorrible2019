@@ -169,6 +169,67 @@ body {
   z-index: 1;
 }
 
+#main-column #juries {
+  background-color: rgba(0, 0, 0, .75);
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+#main-column #juries li#jury-choice-title {
+  background-color: magenta;
+  color: yellow;
+}
+
+#main-column #juries li#jury-choice-title::before {
+  border-right-color: magenta;
+  right: 100%;
+}
+
+#main-column #juries li#jury-choice-title::after {
+  border-left-color: magenta;
+  left: 100%;
+}
+
+#main-column #juries li {
+  background-color: yellow;
+  color: magenta;
+  display: block;
+  font-size: 32px;
+  font-weight: bolder;
+  height: 50px;
+  margin: 50px 25% 0;
+  position: relative;
+  width: 50%;
+}
+
+#main-column #juries li::before,
+#main-column #juries li::after {
+  border-style: solid;
+  border-width: 25px;
+  border-color: transparent;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+}
+
+#main-column #juries li::before {
+  border-right-color: yellow;
+  right: 100%;
+}
+
+#main-column #juries li::after {
+  border-left-color: yellow;
+  left: 100%;
+}
+
 #right-column {
   background-color: grey;
   right: 0;

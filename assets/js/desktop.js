@@ -29,11 +29,11 @@ const Desktop = class Desktop {
 
       const { container } = this;
       const videoGame = new VideoGame(submission, container);
-console.debug(container)
+
       game.classList.add('game');
       game.addEventListener('dblclick', () => {
-        /* TEMP */ videoGame.rateGame();
-        //videoGame.start(submission);
+        /* TEMP / videoGame.rateGame();*/
+        videoGame.start(submission);
       });
 
       icon.src = `./assets/icons/${submission.icon}`;
