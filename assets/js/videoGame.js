@@ -23,7 +23,10 @@ const VideoGame = class VideoGame {
 
       element.addEventListener('click', (e) => {
         this.container.id = 'ratings';
-        this.container.innerHTML = '';
+        container.innerHTML = '';
+        title.innerText = `Vous en avez pensé quoi de ${this.name} ?`;
+        container.appendChild(title);
+
         this.jury.ratings.forEach((rating) => {
           const choice = document.createElement('li');
           choice.innerText = rating.label;
