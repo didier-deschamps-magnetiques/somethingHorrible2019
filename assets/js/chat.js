@@ -18,12 +18,9 @@ const Chat = class Chat {
       "TotoLaDéglingue",
       "Fishbone",
       "DocTeraboule",
-      "DidierDeschampsMagnétiques"
+      "DidierDeschampsMagnétiques",
+      "Polynette",
     ];
-
-    this.events = {
-      start: new CustomEvent("start", { ...this })
-    };
   }
 
   getRandomNick() {

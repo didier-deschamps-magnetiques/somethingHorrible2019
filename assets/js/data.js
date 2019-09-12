@@ -18,7 +18,8 @@ const Data = {
     `Y a des lootboxes ?`,
     `J'ai trouvé un jeu fait par <em>::name::</em> dans les poubelles de Steam !`,
     `Quand je pense qu'on aurait pu apprendre à jouer du piano au lieu de perdre notre temps là dessus…`,
-    `C'est à mettre dans le seau à caca de <em>Noël Malware</em>`
+    `C'est à mettre dans le seau à caca de <em>Noël Malware</em>`,
+    `Il paraît qu'il a payé Ninja pour qu'il stream ce jeu…`
   ],
   animals: [
     {
@@ -273,5 +274,84 @@ const Data = {
     "Marvel",
     "Heat",
     "Feet"
+  ],
+  submissions: [
+    {
+      name: "Titanic",
+      icon: "titanic.png",
+      video: "titanic.mp4",
+      juries: [
+        {
+          name: "Pollynette",
+          ratings: [
+            {
+              label: "keur",
+              value: 1
+            },
+            {
+              label: "keur keur",
+              value: 2
+            },
+            {
+              label: "keur keur keur",
+              value: 3
+            },
+            {
+              label: "keur keur keur keur",
+              value: 4
+            }
+          ]
+        },
+        {
+          name: "Noël Malware",
+          ratings: [
+            {
+              label: "C'est pas mon type de jeu, mais je voulais piquer le test à Izual",
+              value: 2
+            },
+            {
+              label: "Un peu en dessous des autres tacticals RPG",
+              value: 3
+            },
+            {
+              label: "J'ai bien aimé faire couler le bateau",
+              value: 4
+            },
+            {
+              label: "Une fin poignante, comme dans la leçon de piano…",
+              value: 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Le Grand Détournement",
+      icon: "titanic.png",
+      video: "titanic.mp4",
+      juries: [
+        {
+          name: "Pollynette",
+          ratings: [
+            {
+              label: "keur",
+              value: 1
+            },
+            {
+              label: "keur keur",
+              value: 2
+            },
+            {
+              label: "keur keur keur",
+              value: 3
+            },
+            {
+              label: "keur keur keur keur",
+              value: 4
+            }
+          ]
+        }
+      ]
+    }
   ]
 };
