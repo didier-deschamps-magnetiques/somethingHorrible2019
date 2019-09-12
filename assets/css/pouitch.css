@@ -12,6 +12,46 @@ body {
   position: relative;
 }
 
+.hide {
+  display: none;
+}
+
+#leader-board {
+  background-color: navy;
+  bottom: 0;
+  color: orange;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 5;
+}
+
+#leader-board .title,
+#leader-board .results,
+#leader-board .how-to {
+  margin: 5px auto;
+  text-align: center;
+}
+
+#leader-board .results,
+#leader-board .results tr,
+#leader-board .results td {
+  border: solid orange 1px;
+}
+
+#leader-board .results td {
+  padding: 5px 25px;
+}
+
+#leader-board .results tr:hover {
+  color: navy;
+  background-color: orange;
+}
+
+#leader-board .results {
+}
+
 #header {
   background: purple url("../img/logo.png") 0 0 no-repeat;
   height: 50px;

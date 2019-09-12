@@ -33,6 +33,7 @@ const Desktop = class Desktop {
       game.classList.add('game');
       game.addEventListener('dblclick', () => {
         videoGame.start(submission);
+        game.remove();
       });
 
       icon.src = `./assets/icons/${submission.icon}`;
