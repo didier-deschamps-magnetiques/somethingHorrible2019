@@ -28,6 +28,16 @@ class LeaderBoard {
     App.leaderBoard.show();
   }
 
+  showWinner() {
+    const winnerModal = document.getElementById('winner-modal');
+    winnerModal.innerHTML = `<p>Fécilitations ! Vous avez parfaitement streamé suffisamment de jeux pour que vos idiots de lecteurs pensent que vous les avez tous testés !</p>`;
+    winnerModal.innerHTML += `<p>Votre équipe de choc a décidé que le gagnant était…</p>`;
+    winnerModal.innerHTML += `<h1>${App.ratings[0].name}</h1>`;
+    winnerModal.innerHTML += `<p>Bravo à eux pour les 6 ans d'abonnement à CanardPC (et ne nous faites pas comme chaque année le coup de <em>Nan mais en fait on avait dit 6 mois… On les connais ces techniques de radin… À ça… Quand Ivan le Fou défend les pauvres sur Twitter, on a des belles paroles, mais quand il faut mettre la main à la poche, il y a plus personne…).</em></p>`;
+    winnerModal.innerHTML += `<p><strong>Pour quitter le jeu, appuyez sur le bouton Power de votre ordinateur pendant 10 secondes.</strong></p>`;
+    winnerModal.parentElement.classList.remove('hide');
+  }
+
   init() {
     this.dom.id = "leader-board";
 
@@ -65,5 +75,6 @@ class LeaderBoard {
       }
     });
     document.addEventListener('gameHaveBeenRated', App.leaderBoard.updateLeaderBoard);
+    document.addEventListener('gameWasTheLastOne', App.leaderBoard.showWinner);
   }
 }

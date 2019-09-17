@@ -277,6 +277,34 @@ const Data = {
   ],
   submissions: [
     {
+      name: "Make Something Horrible 2019 Simulator 2020",
+      icon: "titanic.png",
+      video: "titanic.mp4",
+      juries: [
+        {
+          name: "Polynette",
+          ratings: [
+            {
+              label: "keur keur keur keur keur keur keur",
+              value: 7
+            },
+            {
+              label: "keur keur keur keur keur keur keur keur",
+              value: 8
+            },
+            {
+              label: "keur keur keur keur keur keur keur keur keur",
+              value: 9
+            },
+            {
+              label: "keur keur keur keur keur keur keur keur keur keur",
+              value: 10
+            }
+          ]
+        }
+      ]
+    },
+    {
       name: "Titanic",
       icon: "titanic.png",
       video: "titanic.mp4",

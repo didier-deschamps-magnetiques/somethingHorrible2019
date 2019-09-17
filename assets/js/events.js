@@ -4,6 +4,13 @@ const Events = {
       been: {
         rated: new CustomEvent('gameHaveBeenRated')
       }
+    },
+    was: {
+      the: {
+        last: {
+          one: new CustomEvent('gameWasTheLastOne')
+        }
+      }
     }
   }
 }

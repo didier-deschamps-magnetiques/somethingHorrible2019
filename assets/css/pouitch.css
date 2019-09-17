@@ -158,6 +158,7 @@ body {
 #main-column #game > div:not(.big) {
   border: solid white 5px;
   bottom: 20px;
+  cursor: pointer;
   height: 20%;
   left: 20px;
   width: 20%;
@@ -383,4 +384,27 @@ body {
 
 #chat > input {
   background-color: yellow;
+}
+
+#winner-modal-background {
+  background-color: rgba(0, 0, 0, .85);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+}
+
+#winner-modal-background #winner-modal {
+  background-color: whitesmoke;
+  border: maroon dashed 5px;
+  bottom: 25%;
+  color: maroon;
+  font-style: italic;
+  left: 25%;
+  padding: 25px;
+  position: absolute;
+  right: 25%;
+  top: 25%;
 }
