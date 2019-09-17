@@ -27,12 +27,13 @@ const Desktop = class Desktop {
       const icon = document.createElement("img");
       const name = document.createElement("span");
 
-      const videoGame = new VideoGame(submission.name);
-      const container = this.container;
+      const { container } = this;
+      const videoGame = new VideoGame(submission, container);
 
       game.classList.add('game');
       game.addEventListener('dblclick', () => {
-        videoGame.start(submission, container);
+        videoGame.start(submission);
+        game.remove();
       });
 
       icon.src = `./assets/icons/${submission.icon}`;
@@ -43,9 +44,6 @@ const Desktop = class Desktop {
 
       game.appendChild(icon);
       game.appendChild(name);
-
-
-
       desktop.appendChild(game);
     });
   }

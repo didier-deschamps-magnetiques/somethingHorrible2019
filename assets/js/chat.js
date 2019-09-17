@@ -21,10 +21,6 @@ const Chat = class Chat {
       "DidierDeschampsMagnétiques",
       "Polynette",
     ];
-
-    this.events = {
-      start: new CustomEvent("start", { ...this })
-    };
   }
 
   getRandomNick() {
