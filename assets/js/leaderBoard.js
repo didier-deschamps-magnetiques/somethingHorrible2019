@@ -59,6 +59,9 @@ class LeaderBoard {
     this.hide();
     this.dom.addEventListener('click', () => {
       this.hide();
+      if(App.ratings.length === Data.submissions.length || App.ratings[0].name === Data.submissions[0].name) {
+        document.dispatchEvent(Events.Game.was.the.last.one);
+      }
     });
 
     document.addEventListener('keydown', (e) => {

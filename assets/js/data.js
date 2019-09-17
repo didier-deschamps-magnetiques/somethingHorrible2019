@@ -278,7 +278,7 @@ const Data = {
   submissions: [
     {
       name: "Make Something Horrible 2019 Simulator 2020",
-      icon: "titanic.png",
+      icon: "msh2019s2020.png",
       video: "titanic.mp4",
       juries: [
         {
@@ -355,8 +355,8 @@ const Data = {
     },
     {
       name: "Le Grand Détournement",
-      icon: "titanic.png",
-      video: "titanic.mp4",
+      icon: "sheraf.png",
+      video: "detournement.mp4",
       juries: [
         {
           name: "Pollynette",
