@@ -188,7 +188,9 @@ body {
 }
 
 #main-column #desktop .label {
+  color: white;
   font-size: 4px;
+  text-shadow: black 1px 1px 1px;
 }
 
 #main-column #desktop.big .label {
@@ -407,4 +409,15 @@ body {
   position: absolute;
   right: 25%;
   top: 25%;
+}
+
+#recursive-frame {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
 }

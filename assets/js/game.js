@@ -2,9 +2,6 @@ const Game = class Game {
   constructor(container) {
     this.container = container;
     this.dom = document.createElement("div");
-    this.events = {
-      start: new CustomEvent("start", { ...this })
-    };
     this.ratings = [];
   }
 

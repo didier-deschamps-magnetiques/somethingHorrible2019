@@ -8,7 +8,8 @@ const VideoGame = class VideoGame {
   }
 
   rateGame() {
-    const gameData = this.submission;
+    const gameData = this.submission || Data.submissions[0];
+    const gameName = this.name || gameData.name;
     const wrapper = document.createElement('ul');
     wrapper.id = 'juries';
 
@@ -24,7 +25,7 @@ const VideoGame = class VideoGame {
       element.addEventListener('click', () => {
         wrapper.id = 'ratings';
         wrapper.innerHTML = '';
-        title.innerHTML = `Qu'est ce que <strong style="color: teal;">${jury.name}</strong> a pensé de <strong style="color: pink;">${this.name}</strong> ?`;
+        title.innerHTML = `Qu'est ce que <strong style="color: teal;">${jury.name}</strong> a pensé de <strong style="color: pink;">${gameName}</strong> ?`;
         title.id = 'rating-choice-title';
 
         wrapper.appendChild(title);
@@ -35,7 +36,7 @@ const VideoGame = class VideoGame {
           choice.addEventListener('click', () => {
             this.rating = rating.value;
             alert(`la note de ${this.rating} a été attribuée.`);
-            App.ratings.push({name: this.name, rating: this.rating, jury: jury.name});
+            App.ratings.push({name: gameName, rating: this.rating, jury: jury.name});
             App.ratings.sort((a, b) => {
               if(a.rating > b.rating) {
                 return -1;
@@ -64,7 +65,13 @@ const VideoGame = class VideoGame {
       wrapper.appendChild(element);
     });
 
-    this.container.appendChild(wrapper);
+    if(this.container) {
+      this.container.appendChild(wrapper);
+    }
+    else {
+      const container = App.game.dom;
+      container.appendChild(wrapper);
+    }
   }
 
   start(gameData) {

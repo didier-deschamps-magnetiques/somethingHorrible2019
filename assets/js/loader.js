@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
     game: true,
     stream: true,
     desktop: true,
-    chat: false,
-    streams: false,
+    chat: true,
+    streams: true
   };
   const gameContainer = document.getElementById("main-column");
   const chatContainer = document.getElementById("right-column");
@@ -13,9 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   App.game = new Game(gameContainer);
   App.stream = new Stream(App.game.dom);
-  App.streams = new Chat(chatContainer);
+  App.chat = new Chat(chatContainer);
   App.desktop = new Desktop(App.game.dom);
   App.leaderBoard = new LeaderBoard(body);
+  App.streams = new Streams(streamsContainer);
 
   App.leaderBoard.init();
 
@@ -33,5 +34,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   if(config.streams) {
     App.streams.init();
+  }
+  if(document.location.search.length > 0) {
+    App.nav = new Nav();
+    App.nav.init();
   }
 });

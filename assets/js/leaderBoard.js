@@ -59,24 +59,28 @@ class LeaderBoard {
     this.hide();
     this.dom.addEventListener('click', () => {
       this.hide();
-      if(App.ratings.length === Data.submissions.length || App.ratings[0].name === Data.submissions[0].name) {
+      if(App.ratings.length === Data.submissions.length || App.ratings[0].rating >= 7) {
         document.dispatchEvent(Events.Game.was.the.last.one);
       }
-    });
-
-    document.addEventListener('keydown', (e) => {
-      if(e.key === "Tab") {
-        this.show();
-        e.preventDefault();
+      if(App.ratings.length > 0) {
+        document.querySelector('#desktop > .game:first-child').classList.remove('hide');
       }
     });
+    if(false) {
+      document.addEventListener('keydown', (e) => {
+        if (e.key === "Tab") {
+          this.show();
+          e.preventDefault();
+        }
+      });
 
-    document.addEventListener('keyup', (e) => {
-      if(e.key === "Tab") {
-        this.hide();
-        e.preventDefault();
-      }
-    });
+      document.addEventListener('keyup', (e) => {
+        if (e.key === "Tab") {
+          this.hide();
+          e.preventDefault();
+        }
+      });
+    }
     document.addEventListener('gameHaveBeenRated', App.leaderBoard.updateLeaderBoard);
     document.addEventListener('gameWasTheLastOne', App.leaderBoard.showWinner);
   }
