@@ -373,23 +373,23 @@ const Data = {
       video: "titanic.mp4",
       juries: [
         {
-          name: "Polynette",
+          name: "Ackboo",
           ratings: [
             {
-              label: "keur.",
-              value: 1
-            },
-            {
-              label: "keur keur.",
+              label: "Ne permet pas de passer sous la banquise.",
               value: 2
             },
             {
-              label: "keur keur keur.",
-              value: 3
+              label: "Les ballasts se remplissent un peu vite.",
+              value: 4
             },
             {
-              label: "keur keur keur keur.",
-              value: 4
+              label: "Un final qui tombe à l'eau.",
+              value: 1
+            },
+            {
+              label: "N'a rien a envier à Silent Hunter.",
+              value: 6
             }
           ]
         },
@@ -436,26 +436,26 @@ const Data = {
           ]
         },
         {
-          name: "Noël Malware",
+          name: "Polynette",
           ratings: [
             {
-              label: "C'est pas mon type de jeu, mais je voulais piquer le test à Izual.",
+              label: "keur.",
+              value: 1
+            },
+            {
+              label: "keur keur.",
               value: 2
             },
             {
-              label: "Un peu en dessous des autres tacticals RPG.",
+              label: "keur keur keur.",
               value: 3
             },
             {
-              label: "J'ai bien aimé faire couler le bateau.",
+              label: "keur keur keur keur.",
               value: 4
-            },
-            {
-              label: "Une fin poignante, comme dans la leçon de piano…",
-              value: 5
             }
           ]
-        }
+        },
       ]
     },
     {
@@ -545,6 +545,97 @@ const Data = {
               label: "Tout simplement l'avenir du RPG sur PC.",
               value: 4
             }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Mauve Mauvais Jardin",
+      icon: "mauve.png",
+      video: "mauveMauvaisJardin.mp4",
+      juries: [
+        {
+          name: "Fishbone",
+          ratings: [
+            {
+              label: "J'aurais préféré avec des Cherry MX®",
+              value: 3
+            },
+            {
+              label: "Ce n'est pas réaliste, un clavier sans fil et sans bluetooth.",
+              value: 2
+            },
+            {
+              label: "Enfin un jeu sur le Hardware",
+              value: 6
+            },
+            {
+              label: "Le premier clavier qui marche sans drivers",
+              value: 5
+            }
+          ]
+        },
+        {
+          name: "Louis-Ferdinand Sébum",
+          ratings: [
+            {
+              label: "Il manque les moustaches pour faire du code",
+              value: 3
+            },
+            {
+              label: "Au moins c'est de l'azerty, pas du bépo !",
+              value: 2
+            },
+            {
+              label: "C'est pas compatible avec mon palonnier.",
+              value: 1
+            },
+            {
+              label: "J'ai appris que l'auteur de Something Horrible 2019 Simulator fait du BÉPO et je m'excuse pour la peine que je lui ai causé avec ma critique de la disposition dans les news du CPC numéro 397.",
+              value: 6
+            }
+          ]
+        },
+        {
+          name: "Noël Malware",
+          ratings: [
+            {
+              label: "Je n'ai pas pu progresser au clavier à cause d'un clavier…",
+              value: 1
+            },
+            {
+              label: "Il manque le bouton d'impression.",
+              value: 2
+            },
+            {
+              label: "Izual m'a offert le même clavier pour nos parties multi.",
+              value: 5
+            },
+            {
+              label: "J'aime cet outil pour lettres anonymes.",
+              value: 3
+            },
+          ]
+        },
+        {
+          name: "Ackboo",
+          ratings: [
+            {
+              label: "Un clavier qui se coince permet d'éviter les rush zergling",
+              value: 4
+            },
+            {
+              label: "Une machine réaliste à tout point de vue",
+              value: 6
+            },
+            {
+              label: "Il manquait le manuel de la machine.",
+              value: 3
+            },
+            {
+              label: "Coule quand on la met dans l'eau : J'adore !",
+              value: 5
+            },
           ]
         }
       ]
