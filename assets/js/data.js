@@ -301,6 +301,69 @@ const Data = {
               value: 10
             }
           ]
+        },
+        {
+          name: "Ackboo",
+          ratings: [
+            {
+              label: "Les grands hommes reconnaissent les grands hommes : J'ai co-fondé CanardPC, l'auteur a fondé un chef-d'œuvre…",
+              value: 10
+            },
+            {
+              label: "Enfin un simulator qui pose de vrai questions.",
+              value: 8
+            },
+            {
+              label: "C'est même pas un RTS, mais j'adore.",
+              value: 7
+            },
+            {
+              label: "Je vous pose la question : Ne serait-ce pas l'avenir du jeu vidéo ?",
+              value: 9
+            }
+          ]
+        },
+        {
+          name: "Ellen Replay",
+          ratings: [
+            {
+              label: "On sent un esprit affuté chez l'auteur, je pense le stalker sur Twitter.",
+              value: 7
+            },
+            {
+              label: "On sent une certaine noblesse chez l'auteur, je pense le suivre dans la rue.",
+              value: 8
+            },
+            {
+              label: "On sent de la grandeur d'âme chez l'auteur, je pense lui écrire une lettre bien sale.",
+              value: 9
+            },
+            {
+              label: "On sent un esprit supérieur chez l'auteur, je pense l'épouser.",
+              value: 10
+            }
+          ]
+        },
+        {
+          name: "Noël Malware",
+          ratings: [
+            {
+              label: "Pour une fois, je me sens apaisé.",
+              value: 9
+            },
+            {
+              label: "Une œuvre majeure qui aurait mérité un meilleur écrin que cette game jam.",
+              value: 7
+            },
+            {
+              label: "J'aimais Crusader Kings pour sa richesse. Maintenant je le trouve fade.",
+              value: 10
+            },
+            {
+              label: "Un jeu excellent, mais sans plus.",
+              value: 8
+            }
+          ]
         }
       ]
     },
