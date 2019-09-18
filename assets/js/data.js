@@ -279,26 +279,89 @@ const Data = {
     {
       name: "Make Something Horrible 2019 Simulator 2020",
       icon: "msh2019s2020.png",
-      video: "titanic.mp4",
+      video: undefined,
       juries: [
         {
           name: "Polynette",
           ratings: [
             {
-              label: "keur keur keur keur keur keur keur",
+              label: "keur keur keur keur keur keur keur.",
               value: 7
             },
             {
-              label: "keur keur keur keur keur keur keur keur",
+              label: "keur keur keur keur keur keur keur keur.",
               value: 8
             },
             {
-              label: "keur keur keur keur keur keur keur keur keur",
+              label: "keur keur keur keur keur keur keur keur keur.",
               value: 9
             },
             {
-              label: "keur keur keur keur keur keur keur keur keur keur",
+              label: "keur keur keur keur keur keur keur keur keur keur.",
               value: 10
+            }
+          ]
+        },
+        {
+          name: "Ackboo",
+          ratings: [
+            {
+              label: "Les grands hommes reconnaissent les grands hommes : J'ai co-fondé CanardPC, l'auteur a fondé un chef-d'œuvre…",
+              value: 10
+            },
+            {
+              label: "Enfin un simulator qui pose de vrai questions.",
+              value: 8
+            },
+            {
+              label: "C'est même pas un RTS, mais j'adore.",
+              value: 7
+            },
+            {
+              label: "Je vous pose la question : Ne serait-ce pas l'avenir du jeu vidéo ?",
+              value: 9
+            }
+          ]
+        },
+        {
+          name: "Ellen Replay",
+          ratings: [
+            {
+              label: "On sent un esprit affuté chez l'auteur, je pense le stalker sur Twitter.",
+              value: 7
+            },
+            {
+              label: "On sent une certaine noblesse chez l'auteur, je pense le suivre dans la rue.",
+              value: 8
+            },
+            {
+              label: "On sent de la grandeur d'âme chez l'auteur, je pense lui écrire une lettre bien sale.",
+              value: 9
+            },
+            {
+              label: "On sent un esprit supérieur chez l'auteur, je pense l'épouser.",
+              value: 10
+            }
+          ]
+        },
+        {
+          name: "Noël Malware",
+          ratings: [
+            {
+              label: "Pour une fois, je me sens apaisé.",
+              value: 9
+            },
+            {
+              label: "Une œuvre majeure qui aurait mérité un meilleur écrin que cette game jam.",
+              value: 7
+            },
+            {
+              label: "J'aimais Crusader Kings pour sa richesse. Maintenant je le trouve fade.",
+              value: 10
+            },
+            {
+              label: "Un jeu excellent, mais sans plus.",
+              value: 8
             }
           ]
         }
@@ -310,22 +373,22 @@ const Data = {
       video: "titanic.mp4",
       juries: [
         {
-          name: "Pollynette",
+          name: "Polynette",
           ratings: [
             {
-              label: "keur",
+              label: "keur.",
               value: 1
             },
             {
-              label: "keur keur",
+              label: "keur keur.",
               value: 2
             },
             {
-              label: "keur keur keur",
+              label: "keur keur keur.",
               value: 3
             },
             {
-              label: "keur keur keur keur",
+              label: "keur keur keur keur.",
               value: 4
             }
           ]
@@ -334,15 +397,57 @@ const Data = {
           name: "Noël Malware",
           ratings: [
             {
-              label: "C'est pas mon type de jeu, mais je voulais piquer le test à Izual",
+              label: "C'est pas mon type de jeu, mais je voulais piquer le test à Izual.",
               value: 2
             },
             {
-              label: "Un peu en dessous des autres tacticals RPG",
+              label: "Un peu en dessous des autres tacticals RPG.",
               value: 3
             },
             {
-              label: "J'ai bien aimé faire couler le bateau",
+              label: "J'ai bien aimé faire couler le bateau.",
+              value: 4
+            },
+            {
+              label: "Une fin poignante, comme dans la leçon de piano…",
+              value: 5
+            }
+          ]
+        },
+        {
+          name: "Louis-Ferdinand Sebum",
+          ratings: [
+            {
+              label: "Une belle métaphore de la vie.",
+              value: 2
+            },
+            {
+              label: "Un jeu frais et coule.",
+              value: 3
+            },
+            {
+              label: "Je n'ai rien contre le design du bateau, mais je l'aurais fait plus petit, avec des ailes et deux Pratt&Whitney F-100.",
+              value: 1
+            },
+            {
+              label: "Un jeu qui réduit le Sébum… Je vais mettre «Titanic la peau lisse» en inter-titre…",
+              value: 5
+            }
+          ]
+        },
+        {
+          name: "Noël Malware",
+          ratings: [
+            {
+              label: "C'est pas mon type de jeu, mais je voulais piquer le test à Izual.",
+              value: 2
+            },
+            {
+              label: "Un peu en dessous des autres tacticals RPG.",
+              value: 3
+            },
+            {
+              label: "J'ai bien aimé faire couler le bateau.",
               value: 4
             },
             {
@@ -359,22 +464,85 @@ const Data = {
       video: "detournement.mp4",
       juries: [
         {
-          name: "Pollynette",
+          name: "Kahn Lust",
           ratings: [
             {
-              label: "keur",
-              value: 1
-            },
-            {
-              label: "keur keur",
+              label: "Pas pire qu'un jeu sous licence Games Workshop",
               value: 2
             },
             {
-              label: "keur keur keur",
+              label: "J'ai du manger un truc pas frais, c'est L-F Sébum qui fera le test… Désolé…",
+              value: 5
+            },
+            {
+              label: "Empire contre Hommes-Lézard, un grand classique",
+              value: 6
+            },
+            {
+              label: "Je vais chercher la tronçonneuse… Bougez pas…",
+              value: 1
+            }
+          ]
+        },
+        {
+          name: "Polynette",
+          ratings: [
+            {
+              label: "keur.",
+              value: 1
+            },
+            {
+              label: "keur keur.",
+              value: 2
+            },
+            {
+              label: "keur keur keur.",
               value: 3
             },
             {
-              label: "keur keur keur keur",
+              label: "keur keur keur keur.",
+              value: 4
+            }
+          ]
+        },
+        {
+          name: 'Ivan le ouf malade',
+          ratings: [
+            {
+              label: "J'ai connu un mec de droite qui avait plus de classe que ce jeu.",
+              value: 5
+            },
+            {
+              label: "Ça me rappelle Georges, politiquement.",
+              value: 3
+            },
+            {
+              label: "Je déteste les animaux préhistoriques partouzeurs de droite, bordel…",
+              value: 1
+            },
+            {
+              label: "J'ai bien aimé quand il dit «vive la révolution d'octobre !».",
+              value: 6
+            }
+          ]
+        },
+        {
+          name: 'Izual',
+          ratings: [
+            {
+              label: "Trop dur. Le manque de pause tactique se fait sentir.",
+              value: 3
+            },
+            {
+              label: "On sent la touche Bioware.",
+              value: 6
+            },
+            {
+              label: "Ça reste mieux fait et moins buggué que Fallout76, même si l'univers est proche.",
+              value: 2
+            },
+            {
+              label: "Tout simplement l'avenir du RPG sur PC.",
               value: 4
             }
           ]
