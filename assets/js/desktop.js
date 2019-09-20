@@ -41,6 +41,7 @@ const Desktop = class Desktop {
       }
       else {
         game.addEventListener('dblclick', () => {
+          App.testingWinner = true;
           const recursiveFrame = document.createElement('iframe');
           recursiveFrame.src = `${document.location.href}?framed=true`;
           recursiveFrame.id = 'recursive-frame';
