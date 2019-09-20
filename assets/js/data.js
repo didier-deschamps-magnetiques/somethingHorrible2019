@@ -674,6 +674,34 @@ const Data = {
           ]
         }
       ]
+    },
+    {
+      name: "C'est pas sorcier bordel",
+      icon: "sorcier.png",
+      video: "",
+      juries: [
+        {
+          name: "Kahn Lust",
+          ratings: [
+            {
+              label: "Dis moi Jamie, c'est quoi un nombre premier ?",
+              value: 1
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        }
+      ]
     }
   ]
 };
