@@ -1,26 +1,61 @@
 const Data = {
-  sentences: [
-    `Je crois pas.`,
-    `lol`,
-    `Ça a l'air bien nul`,
-    `Ça tourne sur Mac ?`,
-    `Il sort quand Mount&Blade2 ?`,
-    `Ça aurait été mieux avec Naruto en personnage principal`,
-    `DTC`,
-    `WTF!!!?!`,
-    `C'est une adaptation de quoi ?`,
-    `T'en penses quoi, toi, <em>::name::</em> ?`,
-    `Je vous proute…`,
-    `Mon jeu est mieux…`,
-    `Ce jeu est prévu sur Stadia`,
-    `Quand je pense que les studios d'Amazon n'ont même pas réussi à sortir un jeu comme ça…`,
-    `C'est compatible ray tracer ?`,
-    `Y a des lootboxes ?`,
-    `J'ai trouvé un jeu fait par <em>::name::</em> dans les poubelles de Steam !`,
-    `Quand je pense qu'on aurait pu apprendre à jouer du piano au lieu de perdre notre temps là dessus…`,
-    `C'est à mettre dans le seau à caca de <em>Noël Malware</em>`,
-    `Il paraît qu'il a payé Ninja pour qu'il stream ce jeu…`
-  ],
+  sentences: {
+    bad: [
+      `Je crois pas.`,
+      `lol`,
+      `Ça a l'air bien nul`,
+      `Ça tourne sur Mac ?`,
+      `Il sort quand Mount&Blade2 ?`,
+      `Ça aurait été mieux avec Naruto en personnage principal`,
+      `DTC`,
+      `WTF!!!?!`,
+      `C'est une adaptation de quoi ?`,
+      `T'en penses quoi, toi, <em>::name::</em> ?`,
+      `Je vous proute…`,
+      `Mon jeu est mieux…`,
+      `Ce jeu est prévu sur Stadia`,
+      `Quand je pense que les studios d'Amazon n'ont même pas réussi à sortir un jeu comme ça…`,
+      `C'est compatible ray tracer ?`,
+      `Y a des lootboxes ?`,
+      `J'ai trouvé un jeu fait par <em>::name::</em> dans les poubelles de Steam !`,
+      `Quand je pense qu'on aurait pu apprendre à jouer du piano au lieu de perdre notre temps là dessus…`,
+      `C'est à mettre dans le seau à caca de <em>Noël Malware</em>`,
+      `Il paraît qu'il a payé Ninja pour qu'il stream ce jeu…`
+    ],
+    good: [
+      `Wow…`,
+      `Han, celui là j'adore !`,
+      `Ah ça y est, la game jam commence !`,
+      `C'est beau comme ma maman…`,
+      `Ça fait comme des papillons dans le ventre`,
+      `J'ai pas ressenti quelque chose comme ça depuis ma première fois !`,
+      `Depuis que ce test a commencé, ma femme est revenue, j'ai de la chance au jeu et je viens de réussir mes examens !`,
+      `C'est mieux que celui d'avant !`,
+      `C'est visionnaire !`,
+      `Vous devriez mettre 10`,
+      `Ça valait le coup d'attendre`,
+      `Quelle belle mise en abyme !`,
+      `La grande classe ce jeu`,
+      `On sent qu'il est bien codé, il pourrait tourner sur Switch sans ramer`,
+      `Et tout ça en javascript`,
+      `Je viens de trouver un sens à ma vie`,
+      `Si je devais faire un reproche, c'est que c'est beaucoup trop bien pour la game jam`,
+      `C'est où le lien pour les dons au créateur ?`,
+      `On vient de passer un palier`,
+      `Le créateur a adapté le bonheur, c'est ça ?`,
+      `J'aime Didier Deschamps Magnétiques.`,
+      `Un modèle pour la jeunesse.`,
+      `Ça va sûrement remplacer Fortnite.`,
+      `Quelle richesse.`,
+      `J'aime beaucoup les graphismes !`,
+      `*___*`,
+      `<3`,
+      `On s'est pas foutu de notre gueule.`,
+      `Un jeu qui pose de vrai questions`,
+      `Quand je pense qu'on aurait pu être là dessus au lieu de perdre notre temps à apprendre à jouer du piano…`,
+      `Enfin un truc positif qui sort de la French Tech…`,
+    ]
+  },
   animals: [
     {
       name: "bonobo",
@@ -636,6 +671,97 @@ const Data = {
               label: "Coule quand on la met dans l'eau : J'adore !",
               value: 5
             },
+          ]
+        }
+      ]
+    },
+    {
+      name: "C'est pas sorcier bordel",
+      icon: "sorcier.png",
+      video: "CpaSorcier.mp4",
+      juries: [
+        {
+          name: "Kahn Lust",
+          ratings: [
+            {
+              label: "Dis moi Jamie, c'est quoi un nombre premier ?",
+              value: 1
+            },
+            {
+              label: "Un jeu qui repousse les limites.",
+              value: 4
+            },
+            {
+              label: "On retrouve l'ambiance de l'émission.",
+              value: 2
+            },
+            {
+              label: "Il manque Marcel et son amour des gros moteurs.",
+              value: 3
+            }
+          ]
+        },
+        {
+          name: "Ackboo",
+          ratings: [
+            {
+              label: "Un jeu qui permet de penser au delà des limites.",
+              value: 6
+            },
+            {
+              label: "Pas de baisse de framerate sur notre GTX 2080.",
+              value: 5
+            },
+            {
+              label: "J'aurais aimé traverser Montargis avec le camion.",
+              value: 2
+            },
+            {
+              label: "Un Céleste à la française.",
+              value: 3
+            }
+          ]
+        },
+        {
+          name: "Elen Replay",
+          ratings: [
+            {
+              label: "Je l'avais déjà testé à la Gamescon",
+              value: 3
+            },
+            {
+              label: "Pas pire que le dernier Kojima.",
+              value: 2
+            },
+            {
+              label: "Pas mal, mais je me préserve pour plus tard…",
+              value: 6
+            },
+            {
+              label: "Ça manque de moment d'épouvante hardcore, comme une porte qui claque.",
+              value: 4
+            }
+          ]
+        },
+        {
+          name: "Noël Malware",
+          ratings: [
+            {
+              label: "La métaphore d'un personnage glissant hors du monde.",
+              value: 5
+            },
+            {
+              label: "Peut-être un peu court.",
+              value: 2
+            },
+            {
+              label: "La narration s'essoufle un peu sur la fin.",
+              value: 3
+            },
+            {
+              label: "On dirait un jeu Spider",
+              value: 1
+            }
           ]
         }
       ]

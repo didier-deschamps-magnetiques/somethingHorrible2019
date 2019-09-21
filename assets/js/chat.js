@@ -28,7 +28,8 @@ const Chat = class Chat {
   }
 
   getRandomSentence() {
-    return Data.sentences[Math.floor(Math.random() * Data.sentences.length)];
+    const sentencesPool = App.testingWinner ? Data.sentences.good : Data.sentences.bad;
+    return sentencesPool[Math.floor(Math.random() * sentencesPool.length)];
   }
 
   addSentence(text) {

@@ -1,3 +1,4 @@
 const App = {
-  ratings: []
+  ratings: [],
+  testingWinner: false,
 };
