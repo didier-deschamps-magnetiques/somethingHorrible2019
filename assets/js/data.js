@@ -678,7 +678,7 @@ const Data = {
     {
       name: "C'est pas sorcier bordel",
       icon: "sorcier.png",
-      video: "",
+      video: "CpaSorcier.mp4",
       juries: [
         {
           name: "Kahn Lust",
@@ -688,16 +688,79 @@ const Data = {
               value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Un jeu qui repousse les limites.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "On retrouve l'ambiance de l'émission.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Il manque Marcel et son amour des gros moteurs.",
+              value: 3
+            }
+          ]
+        },
+        {
+          name: "Ackboo",
+          ratings: [
+            {
+              label: "Un jeu qui permet de penser au delà des limites.",
+              value: 6
+            },
+            {
+              label: "Pas de baisse de framerate sur notre GTX 2080.",
+              value: 5
+            },
+            {
+              label: "J'aurais aimé traverser Montargis avec le camion.",
+              value: 2
+            },
+            {
+              label: "Un Céleste à la française.",
+              value: 3
+            }
+          ]
+        },
+        {
+          name: "Elen Replay",
+          ratings: [
+            {
+              label: "Je l'avais déjà testé à la Gamescon",
+              value: 3
+            },
+            {
+              label: "Pas pire que le dernier Kojima.",
+              value: 2
+            },
+            {
+              label: "Pas mal, mais je me préserve pour plus tard…",
+              value: 6
+            },
+            {
+              label: "Ça manque de moment d'épouvante hardcore, comme une porte qui claque.",
+              value: 4
+            }
+          ]
+        },
+        {
+          name: "Noël Malware",
+          ratings: [
+            {
+              label: "La métaphore d'un personnage glissant hors du monde.",
+              value: 5
+            },
+            {
+              label: "Peut-être un peu court.",
+              value: 2
+            },
+            {
+              label: "La narration s'essoufle un peu sur la fin.",
+              value: 3
+            },
+            {
+              label: "On dirait un jeu Spider",
+              value: 1
             }
           ]
         }
