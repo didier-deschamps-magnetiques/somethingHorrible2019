@@ -317,7 +317,7 @@ const Data = {
       video: undefined,
       juries: [
         {
-          name: "Polynette",
+          name: "Pollynette",
           ratings: [
             {
               label: "keur keur keur keur keur keur keur.",
@@ -471,7 +471,7 @@ const Data = {
           ]
         },
         {
-          name: "Polynette",
+          name: "Pollynette",
           ratings: [
             {
               label: "keur.",
@@ -520,7 +520,7 @@ const Data = {
           ]
         },
         {
-          name: "Polynette",
+          name: "Pollynette",
           ratings: [
             {
               label: "keur.",

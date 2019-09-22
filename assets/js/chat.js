@@ -19,7 +19,7 @@ const Chat = class Chat {
       "Fishbone",
       "DocTeraboule",
       "DidierDeschampsMagnétiques",
-      "Polynette",
+      "Pollynette",
     ];
   }
 
