@@ -723,7 +723,7 @@ const Data = {
           ]
         },
         {
-          name: "Elen Replay",
+          name: "Ellen Replay",
           ratings: [
             {
               label: "Je l'avais déjà testé à la Gamescon",
@@ -760,6 +760,97 @@ const Data = {
             },
             {
               label: "On dirait un jeu Spider",
+              value: 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: "B-men The Gathering",
+      icon: "bmen.png",
+      video: "bmen.mp4",
+      juries: [
+        {
+          name: "Ackboo",
+          ratings: [
+            {
+              label: "Moins bien que le camping **** de Montargis.",
+              value: 2
+            },
+            {
+              label: "Plus fréquenté qu'Artifact.",
+              value: 5
+            },
+            {
+              label: "Je n'ai pas tout compris.",
+              value: 1
+            },
+            {
+              label: "C'est l'adaptation de Camping Paradis je crois.",
+              value: 6
+            }
+          ]
+        },
+        {
+          name: "Louis-Ferdinand Sébum",
+          ratings: [
+            {
+              label: "Une carte tactique riche.",
+              value: 6
+            },
+            {
+              label: "J'aime la très grande complexité de ce jeu.",
+              value: 5
+            },
+            {
+              label: "Bah alors ? On attends pas Louis-Fertinand ?",
+              value: 2
+            },
+            {
+              label: "Ça manque de sang.",
+              value: 3
+            }
+          ]
+        },
+        {
+          name: "Kahn Lust",
+          ratings: [
+            {
+              label: "L'été y sera aussi chaud que sur Prospero",
+              value: 5
+            },
+            {
+              label: "J'étais placé trop près des toilettes communes",
+              value: 1
+            },
+            {
+              label: "La caravane, c'est compliqué à moto…",
+              value: 2
+            },
+            {
+              label: "Ni MMO, Ni RPG",
+              value: 6
+            }
+          ]
+        },
+        {
+          name: "Ellen Replay",
+          ratings: [
+            {
+              label: "Je me souviens l'été dernier",
+              value: 6
+            },
+            {
+              label: "Quelle horreur…",
+              value: 5
+            },
+            {
+              label: "Pas évident avec un gamepad",
+              value: 2
+            },
+            {
+              label: "Je vaux mieux que le camping, non ?",
               value: 1
             }
           ]
