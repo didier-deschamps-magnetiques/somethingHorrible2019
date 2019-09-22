@@ -723,7 +723,7 @@ const Data = {
           ]
         },
         {
-          name: "Elen Replay",
+          name: "Ellen Replay",
           ratings: [
             {
               label: "Je l'avais déjà testé à la Gamescon",
@@ -809,7 +809,49 @@ const Data = {
             },
             {
               label: "Ça manque de sang.",
-              value: NaN
+              value: 3
+            }
+          ]
+        },
+        {
+          name: "Kahn Lust",
+          ratings: [
+            {
+              label: "L'été y sera aussi chaud que sur Prospero",
+              value: 5
+            },
+            {
+              label: "J'étais placé trop près des toilettes communes",
+              value: 1
+            },
+            {
+              label: "La caravane, c'est compliqué à moto…",
+              value: 2
+            },
+            {
+              label: "Ni MMO, Ni RPG",
+              value: 6
+            }
+          ]
+        },
+        {
+          name: "Ellen Replay",
+          ratings: [
+            {
+              label: "Je me souviens l'été dernier",
+              value: 6
+            },
+            {
+              label: "Quelle horreur…",
+              value: 5
+            },
+            {
+              label: "Pas évident avec un gamepad",
+              value: 2
+            },
+            {
+              label: "Je vaux mieux que le camping, non ?",
+              value: 1
             }
           ]
         }
