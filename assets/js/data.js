@@ -765,6 +765,55 @@ const Data = {
           ]
         }
       ]
+    },
+    {
+      name: "B-men The Gathering",
+      icon: "bmen.png",
+      video: "bmen.mp4",
+      juries: [
+        {
+          name: "Ackboo",
+          ratings: [
+            {
+              label: "Moins bien que le camping **** de Montargis.",
+              value: 2
+            },
+            {
+              label: "Plus fréquenté qu'Artifact.",
+              value: 5
+            },
+            {
+              label: "Je n'ai pas tout compris.",
+              value: 1
+            },
+            {
+              label: "C'est l'adaptation de Camping Paradis je crois.",
+              value: 6
+            }
+          ]
+        },
+        {
+          name: "Louis-Ferdinand Sébum",
+          ratings: [
+            {
+              label: "Une carte tactique riche.",
+              value: 6
+            },
+            {
+              label: "J'aime la très grande complexité de ce jeu.",
+              value: 5
+            },
+            {
+              label: "Bah alors ? On attends pas Louis-Fertinand ?",
+              value: 2
+            },
+            {
+              label: "Ça manque de sang.",
+              value: NaN
+            }
+          ]
+        }
+      ]
     }
   ]
 };
