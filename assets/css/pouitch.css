@@ -203,6 +203,10 @@ body {
   background: url("../img/streamers.gif") no-repeat;
 }
 
+.happy #main-column #stream {
+  background-image: url('../img/happy-streamers.gif');
+}
+
 #main-column .big {
   border: none;
   bottom: 0;
