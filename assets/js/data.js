@@ -856,6 +856,97 @@ const Data = {
           ]
         }
       ]
+    },
+    {
+      name: "Monochromix",
+      icon: "monochromix.png",
+      video: "monochromix.mp4",
+      juries: [
+        {
+          name: "Louis-Ferdinand Sébum",
+          ratings: [
+            {
+              label: "Une métaphore de l'aristocratie.",
+              value: 3
+            },
+            {
+              label: "189Mb, c'est peut-être mal optimisé.",
+              value: 4
+            },
+            {
+              label: "Le manque de résolution des textures est parfaitement dans le thème.",
+              value: 6
+            },
+            {
+              label: "Pas de temps de chargement rend l'expérience super fluide.",
+              value: 5
+            }
+          ]
+        },
+        {
+          name: "Izual",
+          ratings: [
+            {
+              label: "C'est pas le même bleu que le pyjama des Vaults.",
+              value: 0
+            },
+            {
+              label: "Bleu, c'est le niveau de Noël Malware.",
+              value: 1
+            },
+            {
+              label: "Peu de classes de perso rendent le jeu un peu répétitif.",
+              value: 2
+            },
+            {
+              label: "Bientôt sur biendebuter.net pour vous aider à l'appréhender.",
+              value: 6
+            }
+          ]
+        },
+        {
+          name: "Kahn Lust",
+          ratings: [
+            {
+              label: "Pas la pire adaptation des Ultramarines.",
+              value: 5
+            },
+            {
+              label: "Au moins ça change d'Ivan le Rouge.",
+              value: 4
+            },
+            {
+              label: "On a pas la sensation de vitesse.",
+              value: 1
+            },
+            {
+              label: "J'ai joué à des MMO moins bien.",
+              value: 6
+            }
+          ]
+        },
+        {
+          name: "Ackboo",
+          ratings: [
+            {
+              label: "Bleu comme l'ozone en couche que l'on fend dans Kerbal.",
+              value: 4
+            },
+            {
+              label: "Ce n'est pas ma couleur préférée.",
+              value: 2
+            },
+            {
+              label: "Oser adapter les Schtroumpfs est un choix payant.",
+              value: 5
+            },
+            {
+              label: "Comme le blason de Montargis : «D'azur, à la lettre capitale M couronnée d'or»",
+              value: 6
+            }
+          ]
+        },
+      ]
     }
   ]
 };
