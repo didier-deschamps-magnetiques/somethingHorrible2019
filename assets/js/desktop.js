@@ -48,7 +48,7 @@ const Desktop = class Desktop {
           const recursiveFrame = document.createElement('iframe');
           recursiveFrame.src = `${document.location.href}?framed=true&frameCount=${frameCount + 1}`;
           recursiveFrame.id = 'recursive-frame';
-          if(frameCount < 2) {
+          if(frameCount < 10) {
             document.getElementById('desktop').appendChild(recursiveFrame);
             if (document.location.search.length === 0) {
               window.setTimeout(videoGame.rateGame, 8000);
