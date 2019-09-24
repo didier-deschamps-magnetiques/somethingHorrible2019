@@ -941,7 +941,7 @@ const Data = {
               value: 5
             },
             {
-              label: "Comme le blason de Montargis : «D'azur, à la lettre capitale M couronnée d'or»",
+              label: "Comme le blason de Montargis : «D'azur, à la lettre capitale M couronnée d'or».",
               value: 6
             }
           ]
