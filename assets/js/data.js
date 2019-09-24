@@ -244,7 +244,8 @@ const Data = {
       `Plants versus`,
       `Panzer`,
       `Heart of`,
-      `Final`
+      `Final`,
+      `Make`
     ],
     licence: [
       `Rainbow Six`,
@@ -267,7 +268,8 @@ const Data = {
       `DragonQuest`,
       `DOTA`,
       `Portal`,
-      `Team`
+      `Team`,
+      `Something`
     ],
     suffix: [
       `General`,
@@ -283,7 +285,8 @@ const Data = {
       `Fortress`,
       `Craft`,
       `Ultimate`,
-      `II Turbo alpha`
+      `II Turbo alpha`,
+      `Horrible`
     ]
   },
   gamerTags: [
@@ -494,7 +497,7 @@ const Data = {
       ]
     },
     {
-      name: "Le Grand Détournement",
+      name: "Le Détournement du Grand Détournement",
       icon: "sheraf.png",
       video: "detournement.mp4",
       juries: [
@@ -585,7 +588,7 @@ const Data = {
       ]
     },
     {
-      name: "Mauve Mauvais Jardin",
+      name: "Mauve Mauvais-Jardin",
       icon: "mauve.png",
       video: "mauveMauvaisJardin.mp4",
       juries: [
@@ -676,7 +679,7 @@ const Data = {
       ]
     },
     {
-      name: "C'est pas sorcier bordel",
+      name: "C'est Pas Sorcier, Bordel.",
       icon: "sorcier.png",
       video: "CpaSorcier.mp4",
       juries: [
@@ -767,7 +770,7 @@ const Data = {
       ]
     },
     {
-      name: "B-men The Gathering",
+      name: "The B-Men",
       icon: "bmen.png",
       video: "bmen.mp4",
       juries: [
@@ -943,6 +946,1826 @@ const Data = {
             {
               label: "Comme le blason de Montargis : «D'azur, à la lettre capitale M couronnée d'or».",
               value: 6
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Stalingrad",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "À la recherche du temps perdu, le téléfilm, le jeu-vidéo",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Pickle Rick Simulator",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "B.O.U.S.E",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Locky3 Le Noeil du tigre 2 Players Only",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Agatha Christie : Le Casse-briques",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "La Grenouille qui se veut faire aussi grosse que le Boeuf",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "TheBoyz",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Jeu de Trones",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Read is Dead : Reparation",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Business Plan Clicker",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Twitch Chat Battle",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Apprends les animaux avec Buffon",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "PMU - Le film - Le jeu officiel du fiml",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Les Misérables Totale Destruction",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Insert Coin-Coin",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "20h40",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Canard PC L'Emission Le Jeu",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Monochromix",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Fifi Brin d'acier - D. Boon Director's crotte",
+      icon: "",
+      video: "",
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
             }
           ]
         },

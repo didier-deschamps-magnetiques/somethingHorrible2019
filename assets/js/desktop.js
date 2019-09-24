@@ -41,14 +41,18 @@ const Desktop = class Desktop {
       }
       else {
         game.addEventListener('dblclick', () => {
+          const frameCount = document.location.search.split('&frameCount=')[1] || 0;
+
           document.body.classList.add('happy');
           App.testingWinner = true;
           const recursiveFrame = document.createElement('iframe');
-          recursiveFrame.src = `${document.location.href}?framed=true`;
+          recursiveFrame.src = `${document.location.href}?framed=true&frameCount=${frameCount + 1}`;
           recursiveFrame.id = 'recursive-frame';
-          document.getElementById('desktop').appendChild(recursiveFrame);
-          if(document.location.search.length === 0) {
-            window.setTimeout(videoGame.rateGame, 2000);
+          if(frameCount < 2) {
+            document.getElementById('desktop').appendChild(recursiveFrame);
+            if (document.location.search.length === 0) {
+              window.setTimeout(videoGame.rateGame, 8000);
+            }
           }
         });
       }
