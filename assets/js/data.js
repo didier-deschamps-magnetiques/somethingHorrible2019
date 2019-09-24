@@ -1044,8 +1044,8 @@ const Data = {
     },
     {
       name: "À la recherche du temps perdu, le téléfilm, le jeu-vidéo",
-      icon: "",
-      video: "",
+      icon: "proust.png",
+      video: "proust.mp4",
       juries: [
         {
           name: "",
@@ -1772,8 +1772,8 @@ const Data = {
     },
     {
       name: "Read is Dead : Reparation",
-      icon: "",
-      video: "",
+      icon: "red.png",
+      video: "red.mp4",
       juries: [
         {
           name: "",
@@ -1863,8 +1863,8 @@ const Data = {
     },
     {
       name: "Business Plan Clicker",
-      icon: "",
-      video: "",
+      icon: "business-plan-clicker.png",
+      video: "business-plan-clicker.mp4",
       juries: [
         {
           name: "",
@@ -2136,8 +2136,8 @@ const Data = {
     },
     {
       name: "PMU - Le film - Le jeu officiel du fiml",
-      icon: "",
-      video: "",
+      icon: "pmu.png",
+      video: "pmu.mp4",
       juries: [
         {
           name: "",
