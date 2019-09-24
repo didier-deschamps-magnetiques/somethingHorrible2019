@@ -23,7 +23,6 @@ const Desktop = class Desktop {
       const game = document.createElement("div");
       const icon = document.createElement("img");
       const name = document.createElement("span");
-      let element = undefined;
 
       if(submission.name === Data.submissions[0].name) {
         game.classList.add('hide');
@@ -35,13 +34,13 @@ const Desktop = class Desktop {
       game.classList.add('game');
       if(!game.classList.contains('hide')) {
         game.addEventListener('dblclick', () => {
-          videoGame.start(submission);
+          videoGame.start();
           game.remove();
         });
       }
       else {
         game.addEventListener('dblclick', () => {
-          const frameCount = document.location.search.split('&frameCount=')[1] || 0;
+          const frameCount = parseInt(document.location.search.split('&frameCount=')[1] || 0);
 
           document.body.classList.add('happy');
           App.testingWinner = true;

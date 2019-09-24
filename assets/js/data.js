@@ -863,7 +863,7 @@ const Data = {
     {
       name: "Monochromix",
       icon: "monochromix.png",
-      video: "monochromix.mp4",
+      video: undefined,
       juries: [
         {
           name: "Louis-Ferdinand Sébum",
@@ -954,7 +954,7 @@ const Data = {
     {
       name: "Stalingrad",
       icon: "",
-      video: "",
+      video: undefined,
       juries: [
         {
           name: "",
@@ -1135,8 +1135,8 @@ const Data = {
     },
     {
       name: "Pickle Rick Simulator",
-      icon: "",
-      video: "",
+      icon: "pickle.png",
+      video: undefined,
       juries: [
         {
           name: "",
@@ -1226,8 +1226,8 @@ const Data = {
     },
     {
       name: "B.O.U.S.E",
-      icon: "",
-      video: "",
+      icon: "bouse.png",
+      video: undefined,
       juries: [
         {
           name: "",
@@ -1317,8 +1317,8 @@ const Data = {
     },
     {
       name: "Locky3 Le Noeil du tigre 2 Players Only",
-      icon: "",
-      video: "",
+      icon: "locky.png",
+      video: undefined,
       juries: [
         {
           name: "",
@@ -1408,8 +1408,8 @@ const Data = {
     },
     {
       name: "Agatha Christie : Le Casse-briques",
-      icon: "",
-      video: "",
+      icon: "agatha.png",
+      video: undefined,
       juries: [
         {
           name: "",
@@ -1500,7 +1500,7 @@ const Data = {
     {
       name: "La Grenouille qui se veut faire aussi grosse que le Boeuf",
       icon: "",
-      video: "",
+      video: undefined,
       juries: [
         {
           name: "",
@@ -1591,7 +1591,7 @@ const Data = {
     {
       name: "TheBoyz",
       icon: "",
-      video: "",
+      video: undefined,
       juries: [
         {
           name: "",
@@ -1682,7 +1682,7 @@ const Data = {
     {
       name: "Jeu de Trones",
       icon: "",
-      video: "",
+      video: undefined,
       juries: [
         {
           name: "",
@@ -1955,7 +1955,7 @@ const Data = {
     {
       name: "Twitch Chat Battle",
       icon: "",
-      video: "",
+      video: undefined,
       juries: [
         {
           name: "",
@@ -2046,7 +2046,7 @@ const Data = {
     {
       name: "Apprends les animaux avec Buffon",
       icon: "",
-      video: "",
+      video: undefined,
       juries: [
         {
           name: "",
@@ -2228,7 +2228,7 @@ const Data = {
     {
       name: "Les Misérables Totale Destruction",
       icon: "",
-      video: "",
+      video: undefined,
       juries: [
         {
           name: "",
@@ -2319,7 +2319,7 @@ const Data = {
     {
       name: "Insert Coin-Coin",
       icon: "",
-      video: "",
+      video: undefined,
       juries: [
         {
           name: "",
@@ -2410,7 +2410,7 @@ const Data = {
     {
       name: "20h40",
       icon: "",
-      video: "",
+      video: undefined,
       juries: [
         {
           name: "",
@@ -2501,7 +2501,7 @@ const Data = {
     {
       name: "Canard PC L'Emission Le Jeu",
       icon: "",
-      video: "",
+      video: undefined,
       juries: [
         {
           name: "",
@@ -2592,7 +2592,7 @@ const Data = {
     {
       name: "Monochromix",
       icon: "",
-      video: "",
+      video: undefined,
       juries: [
         {
           name: "",
@@ -2683,7 +2683,7 @@ const Data = {
     {
       name: "Fifi Brin d'acier - D. Boon Director's crotte",
       icon: "",
-      video: "",
+      video: undefined,
       juries: [
         {
           name: "",
