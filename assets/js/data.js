@@ -317,7 +317,7 @@ const Data = {
     {
       name: "Make Something Horrible 2019 Simulator 2020",
       icon: "msh2019s2020.png",
-      video: undefined,
+      video: null,
       juries: [
         {
           name: "Pollynette",
@@ -863,7 +863,7 @@ const Data = {
     {
       name: "Monochromix",
       icon: "monochromix.png",
-      video: undefined,
+      video: null,
       juries: [
         {
           name: "Louis-Ferdinand Sébum",
@@ -953,90 +953,90 @@ const Data = {
     },
     {
       name: "Stalingrad",
-      icon: "",
-      video: undefined,
+      icon: "stalingrad.png",
+      video: null,
       juries: [
         {
-          name: "",
+          name: "Ivan сумасшедший",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "J'aurai préféré défendre la Glorieuse en vrai.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Éradiquer l'ennemi fasciste était plaisant.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Ne met pas en valeur l'architecture Stalingradoise.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Cyka Blyat…",
+              value: 3
             }
           ]
         },
         {
-          name: "",
+          name: "Pollynetteshka",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Cердце сердце сердце…",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Cердце сердце сердце сердце.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Cердце сердце сердце сердце сердце !?",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Cердце сердце сердце сердце сердце сердце !!!",
+              value: 6
             }
           ]
         },
         {
-          name: "",
+          name: "Ackbabooshka",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Le bruit des chenilles des tank est bien rendu.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "J'ai reconnu Montargis dans les décors.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Les ingrédients de la réussite : Des armes et des larmes.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Je suis plus un joueur manette à la base, c'était trop dur.",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Pождество Malware",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "L'insécurité émotionnelle et la tension du jeu m'ont réconforté.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Une métaphore du rapport à l'autre lorsqu'on est introverti.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "La poussière, la crasse, la faim, la peur… Une belle adaptation de la station de métro éponyme.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "J'avais des doutes, maintenant j'en ai plus.",
+              value: 1
             }
           ]
         },
@@ -1048,86 +1048,86 @@ const Data = {
       video: "proust.mp4",
       juries: [
         {
-          name: "",
+          name: "Noël Malware",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Un jeu sous côté de chez oim.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Je n'ai pas vu de jeunes filles en fleurs.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "À la recherche du temps perdu à jouer, mais sans jouer.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Déprimant.",
+              value: 6
             }
           ]
         },
         {
-          name: "",
+          name: "Louis-Ferdinand Sébum",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Indissociable de l'œuvre de Schopenhauer.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Une œuvre qui se savoure lentement comme un conseil de rédaction.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "J'ai choisi Céline pour ma part, car les jeux de mots avec Proust étaient plus durs à trouver.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Fidèle à l'œuvre originale.",
+              value: 2
             }
           ]
         },
         {
-          name: "",
+          name: "Ackboo",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Ça manque un poil d'action.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Une nature parfaitement rendue.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "On avait pas encore testé d'open-world.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "On voulait des jeux moches, c'est aussi beau que Kerbal 2.",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Pollynette",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "keur",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "keur keur keur",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "keur keur keur keur keur",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "À l'ombre des jeunes filles en keur.",
+              value: 6
             }
           ]
         },
@@ -1136,89 +1136,89 @@ const Data = {
     {
       name: "Pickle Rick Simulator",
       icon: "pickle.png",
-      video: undefined,
+      video: "pickle.mp4",
       juries: [
         {
-          name: "",
+          name: "Kahn Lust",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "J'aime pas South Park.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Cornichon, pas loin du brief d'un jeu Team Ninja…",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Le héros ressemble à mes plague marines…",
+              value: 6
             },
             {
-              label: "",
+              label: "Assez fidèle à l'esprit original.",
               value: NaN
             }
           ]
         },
         {
-          name: "",
+          name: "Elen",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Quelle horreur.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Une ôde à l'enfance.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Ce petit cornichon vert m'a rappelé ma première fois.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Les cornichons collector du stand Pickle Rick à la Gamescon se vendent maintenant 450€ sur E-bay…",
+              value: 4
             }
           ]
         },
         {
-          name: "",
+          name: "Louis-Ferdinand Sébum",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "On retrouve l'art combinatoire, logicien est instinctif d'un esprit qui prône les faits.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Un vestige archaïque des temps révolus.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "L'œuvre d'un esprit tendre qui se base sur des principes rationnalistes.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "À la fois intellectualiste, idéaliste, optimiste, religieux, volontariste, moniste et dogmatique.",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Ackboo",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Les armes manquent de dynamisme.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Un sans faute.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Encore un coup des loobies végétariens.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "On dirait un utilitaire Windows® de 1992.",
+              value: 6
             }
           ]
         },
@@ -1227,89 +1227,89 @@ const Data = {
     {
       name: "B.O.U.S.E",
       icon: "bouse.png",
-      video: undefined,
+      video: null,
       juries: [
         {
-          name: "",
+          name: "Ackboo",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "J'ai détesté.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Ensuite j'ai aimé.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Puis j'ai détesté encore.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Puis finalement j'ai aimé.",
+              value: 6
             }
           ]
         },
         {
-          name: "",
+          name: "Pollynette",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "K.E.U.R",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "K.E.U.R.K.E.U.R",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "K.E.U.R.K.E.U.R.K.E.U.R",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "K.E.U.R.K.E.U.R.K.E.U.R.K.E.U.R",
+              value: 4
             }
           ]
         },
         {
-          name: "",
+          name: "Noël Malware",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Ne pas savoir ce qui est adapté m'angoisse.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Il n'y avait pas de bateau à couler.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Il n'y avait pas d'avion à crasher.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Il n'y avait pas de blouson collector à déchirer.",
+              value: 2
             }
           ]
         },
         {
-          name: "",
+          name: "Louis Ferdinand Sébum",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Le jeu est hors sujet.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Une adaptation non adaptée mais qui se pose en préquel. Habile.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Pas le pire de la Game Jam.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Pas le mieux de la Game Jam.",
+              value: 3
             }
           ]
         },
@@ -1318,89 +1318,89 @@ const Data = {
     {
       name: "Locky3 Le Noeil du tigre 2 Players Only",
       icon: "locky.png",
-      video: undefined,
+      video: null,
       juries: [
         {
-          name: "",
+          name: "Ellen Replay",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Ultra violence, j'adore",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "J'aime ces corps d'hommes luisants de sueur.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Le multijoueur va encore aggraver la situation entre Zizi et Nono…",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "C'est l'œil de le tigre, c'est le frisson de le pugilat.",
+              value: 2
             }
           ]
         },
         {
-          name: "",
+          name: "Noël Malware",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Ça m'a rappelle les titres de ma vie d'avant.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Rififi sur le Ring : 2 morts.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Ivre il tente de frapper un boxeur professionnel.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Les boxeurs, qui sont-ils ? Que veulent-ils ? Quel est leur réseau ?",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Ackboo",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Lockyky a son pépère ?",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Locky va avoir une note de 8 ?",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Rouxe et Locky ?",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Des visages bleus comme les armoiries de Montargis.",
+              value: 6
             }
           ]
         },
         {
-          name: "",
+          name: "Kahn Lust",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Vivement le jeu de plateau.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Des visages bleus Ultramarines",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Ça manque d'épée tronçonneuse.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Puissant comme un moteur de 125cm³",
+              value: 3
             }
           ]
         },
@@ -1409,89 +1409,89 @@ const Data = {
     {
       name: "Agatha Christie : Le Casse-briques",
       icon: "agatha.png",
-      video: undefined,
+      video: "agatha.mp4",
       juries: [
         {
-          name: "",
+          name: "Ackboo",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Élémentaire mon cher Watson !",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Il manquait le chien des Baskerville.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Le Montargis victorien était bien modelisé.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "C'est «Attaque l'Orient Express», pas «Le crime de l'Orient Express»… Mais sinon ça va.",
+              value: 3
             }
           ]
         },
         {
-          name: "",
+          name: "Ellen Replay",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Enfin du Thriller dans la game jam.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "De l'enquête et du meurtre, les ingrédients du jeu réussi.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Casse-briques ? C'est pas un jeu de Kung-fu ?",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Le parfait alliage fait de littérature et de jeu vidéo.",
+              value: 4
             }
           ]
         },
         {
-          name: "",
+          name: "Noël Malware",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Ça casse pas 3 briques à un canard.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Des combats épiques.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Le chaos d'un monde qui se délite.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Pour cent briques, t'as plus rien.",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Louis-Ferdinand Sébum",
           ratings: [
             {
-              label: "",
+              label: "Un peuple de lapin finit par engendrer un gouvernement de canards.",
+              value: 1
+            },
+            {
+              label: "Espérer 6 mois d'abonnement, c'est toujours continuer à aimer et à croire",
               value: NaN
             },
             {
-              label: "",
+              label: "Quand 6 mois d'abonnement sont en jeu, il est préférable de ne se fier à personne.",
               value: NaN
             },
             {
-              label: "",
-              value: NaN
-            },
-            {
-              label: "",
-              value: NaN
+              label: "Ah, l'abonnement de 6 mois à CanardPC ! Qu'on en ait ou qu'on en manque; c'est toujours lui la cause du mal.",
+              value: 4
             }
           ]
         },
@@ -1500,89 +1500,89 @@ const Data = {
     {
       name: "La Grenouille qui se veut faire aussi grosse que le Boeuf",
       icon: "",
-      video: undefined,
+      video: null,
       juries: [
         {
-          name: "",
+          name: "Louis-Ferdinand Sébum",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Est-ce assez ? Dites moi.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "N'y suis-je point encore ?",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "M'y voici donc ?",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "M'y voilà ?",
+              value: 6
             }
           ]
         },
         {
-          name: "",
+          name: "Kahn Lust",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Début pas foufou, mais fini dans la tripaille.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Une fable de Jean de Nurggle, je crois.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Mais ? Tite grenouille ? Pourquoi «Poum» ??",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "L'adaptation d'une œuvre inadaptable. Parfait !",
+              value: 6
             }
           ]
         },
         {
-          name: "",
+          name: "Pollynette",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Eurk",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Eurk eurk",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Eurk eurk eurk.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Eurk eurk eurk eurk.",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Ackboo",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Le héros est laid comme celui de Kerbal.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Il n'y avait pas de sous-marin dans la mare.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Un final explosif.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "L'adaptation d'Icare, pas mal.",
+              value: 4
             }
           ]
         },
@@ -1591,10 +1591,31 @@ const Data = {
     {
       name: "TheBoyz",
       icon: "",
-      video: undefined,
+      video: null,
       juries: [
         {
-          name: "",
+          name: "Kahn Lust",
+          ratings: [
+            {
+              label: "C'est un groupe de K-Pop, non ?",
+              value: 5
+            },
+            {
+              label: "C'est une chanson de Nicki Minaj, non ?",
+              value: 6
+            },
+            {
+              label: "C'est un girl band, non ?",
+              value: 3
+            },
+            {
+              label: "Et la fille, c'est un boyz, aussi ?",
+              value: 1
+            }
+          ]
+        },
+        {
+          name: "Ellen Replay",
           ratings: [
             {
               label: "",
@@ -1615,7 +1636,7 @@ const Data = {
           ]
         },
         {
-          name: "",
+          name: "Louis-Ferdinand Sébum",
           ratings: [
             {
               label: "",
@@ -1636,28 +1657,7 @@ const Data = {
           ]
         },
         {
-          name: "",
-          ratings: [
-            {
-              label: "",
-              value: NaN
-            },
-            {
-              label: "",
-              value: NaN
-            },
-            {
-              label: "",
-              value: NaN
-            },
-            {
-              label: "",
-              value: NaN
-            }
-          ]
-        },
-        {
-          name: "",
+          name: "Pollynette",
           ratings: [
             {
               label: "",
@@ -1682,89 +1682,89 @@ const Data = {
     {
       name: "Jeu de Trones",
       icon: "",
-      video: undefined,
+      video: "got.mp4",
       juries: [
         {
-          name: "",
+          name: "Noël Malware",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Au moins la narration de s'essoufle pas au fil de l'histoire.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Un drame plus ou moins familial, j'adore.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "De l'action à tout bout de champ, des scènes poignantes, des choix cornéliens…",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "J'aimais bien la dernière saison, pourquoi avoir tout changé ?",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Louis-Ferdinand Sébum",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "On retrouve l’idée qu’il faut docere et placere («enseigner et plaire»).",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "La dimension politique n'est pas sans rappeler le Leviathan de Hobbes.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Une méta-éthique normative qui laisse se dessiner l'utilitarisme hédonique de l'égo de l'auteur.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Les choix narratifs sont-ils condamnables moralement ?",
+              value: 6
             }
           ]
         },
         {
-          name: "",
+          name: "Ellen Replay",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "J'adore Cersei et Jamie.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "J'adore Daenerys et Jon.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Didier Deschamps Magnétiques est comme un frère pour moi.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Didier Deschamps Magnétiques est comme une sœur pour moi.",
+              value: 6
             }
           ]
         },
         {
-          name: "",
+          name: "Pollynette",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Hodor.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Hodor hodor.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Hodor hodor hodor hodor.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Hodor hodor hodor.",
+              value: 3
             }
           ]
         },
@@ -1776,86 +1776,86 @@ const Data = {
       video: "red.mp4",
       juries: [
         {
-          name: "",
+          name: "Ackboo",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Oh non ! Sandy !",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Ce n'était qu'un affreux cauchemar.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Il ne peut plus rien nous arriver d'affreux maintenant.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "L'aspirateur ! J'ai oublié de l'éteindre.",
+              value: 4
             }
           ]
         },
         {
-          name: "",
+          name: "Ivan le Fou",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Red is not Dead.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Pourriture communiste ? Non mais ça va pas ?",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "C'est l'attachement matériel capitaliste qui encombre le niveau futilement.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Puisse Émile libérer ces âmes corrompues…",
+              value: 6
             }
           ]
         },
         {
-          name: "",
+          name: "Kahn Lust",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Blood Angels ?",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "World Eaters ?",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Boyz Goff ?",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Farsight Enclaves ?",
+              value: 5
             }
           ]
         },
         {
-          name: "",
+          name: "Ellen Replay",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Il manque Youri.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Il manque le marteau.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Il manque la saucisse.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Une bien belle histoire comme on aimerait en voir plus souvent.",
+              value: 4
             }
           ]
         },
@@ -1867,86 +1867,86 @@ const Data = {
       video: "business-plan-clicker.mp4",
       juries: [
         {
-          name: "",
+          name: "Louis-Ferdinand Sébum",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "L'adaptation des erreurs de pensée d'Ivan.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Enfin un jeu sur les sciences occultes interdites.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "L'adaptation de la captation du profit du travail des rédacteurs de CanardPC par Gaudé Corporation.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Diabolique.",
+              value: 2
             }
           ]
         },
         {
-          name: "",
+          name: "Noël Marxware",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "L'insécurité créée par la privation de la richesse m'a beaucoup touchée.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "L'ouvrier remplacé par une usine nucléaire, précarisé car sacrifié sur l'autel du profit, m'a beaucoup touché.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "L'incertitude d'un avenir sombre car la croissance infinie ne pourra pas être respectée m'a beaucoup touchée.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "C'est donc là qu'est passé mon salaire de Février ?",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Ivan le fou",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "L'adaptation du mode de production bourgeois.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "L'adaptation de l'exploitation du travail salarié.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "L'adaptation de l'aliénation des travailleurs.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "L'adaptation des travers capitalistes.",
+              value: 4
             }
           ]
         },
         {
-          name: "",
+          name: "Monsieur Chat",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "J'ai saigné des yeux.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Manque de contraste, mais bien animé.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Difficilement lisible.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Ça ressemble aux dessins de Couly",
+              value: 1
             }
           ]
         },
@@ -1955,89 +1955,89 @@ const Data = {
     {
       name: "Twitch Chat Battle",
       icon: "",
-      video: undefined,
+      video: null,
       juries: [
         {
-          name: "",
+          name: "Izual",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Un RPG Multijoueur à ne pas négliger.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Tout simplement l'avenir du MOBA.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Meh.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "La battle était terminée le temps que je lance mon stream.",
+              value: 3
             }
           ]
         },
         {
-          name: "",
+          name: "Monsieur Chat",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Mew ?",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Shhhhhhhhhhhhhhhhh !",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Ron… ron… ron…",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Y avait pas de chat en fait.",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Kahn Lust",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Je suis préposé aux jeux GW donc je l'ai pas testé.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Je suis préposé aux jeux de moto donc je l'ai pas testé.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Je suis préposé aux jeux de foot américain donc je l'ai pas testé.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Elle est où ma tronçonneuse ?",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Ackboo",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Ça a toujours été le bordel dans le chat de toute façon.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Enfin de l'innovation dans un battle royale.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "La non adaptation de l'équipe de modération CanardPC.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Pew ! Pew !! Pew !!!",
+              value: 1
             }
           ]
         },
@@ -2046,7 +2046,7 @@ const Data = {
     {
       name: "Apprends les animaux avec Buffon",
       icon: "",
-      video: undefined,
+      video: null,
       juries: [
         {
           name: "",
@@ -2228,7 +2228,7 @@ const Data = {
     {
       name: "Les Misérables Totale Destruction",
       icon: "",
-      video: undefined,
+      video: "miserables.mp4",
       juries: [
         {
           name: "",
@@ -2319,7 +2319,7 @@ const Data = {
     {
       name: "Insert Coin-Coin",
       icon: "",
-      video: undefined,
+      video: "coin.mp4t",
       juries: [
         {
           name: "",
@@ -2410,7 +2410,7 @@ const Data = {
     {
       name: "20h40",
       icon: "",
-      video: undefined,
+      video: "20h40.mp4",
       juries: [
         {
           name: "",
@@ -2501,7 +2501,7 @@ const Data = {
     {
       name: "Canard PC L'Emission Le Jeu",
       icon: "",
-      video: undefined,
+      video: null,
       juries: [
         {
           name: "",
@@ -2592,7 +2592,7 @@ const Data = {
     {
       name: "Monochromix",
       icon: "",
-      video: undefined,
+      video: "mono.mp4",
       juries: [
         {
           name: "",
@@ -2683,7 +2683,189 @@ const Data = {
     {
       name: "Fifi Brin d'acier - D. Boon Director's crotte",
       icon: "",
-      video: undefined,
+      video: null,
+      juries: [
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+        {
+          name: "",
+          ratings: [
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            },
+            {
+              label: "",
+              value: NaN
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Ryan Jetlines Safety Demonstration - The Game",
+      icon: "ryan.png",
+      video: "ryan.mp4",
+      juries: [
+        {
+          name: "Ackboo",
+          ratings: [
+            {
+              label: "Mot de passe : K3rb4l — Access Denied.",
+              value: 0
+            },
+            {
+              label: "Mot de passe : M0nt4rg15 — Access Denied.",
+              value: 0
+            },
+            {
+              label: "Mot de passe : C4rt3-T4ct1k — Access Denied.",
+              value: 0
+            },
+            {
+              label: "Mot de passe : azerty1234 — Access Denied.",
+              value: 0
+            }
+          ]
+        },
+        {
+          name: "Louis-Ferdinand Sébum",
+          ratings: [
+            {
+              label: "Mot de passe : 50cr4t3 — Access Denied.",
+              value: 0
+            },
+            {
+              label: "Mot de passe : JAPD — Access Denied.",
+              value: 0
+            },
+            {
+              label: "Mot de passe : 5p1n0z4*vs*H3g3l — Access Denied.",
+              value: 0
+            },
+            {
+              label: "Mot de passe : toto — Access Denied.",
+              value: 0
+            }
+          ]
+        },
+        {
+          name: "Kahn Lust",
+          ratings: [
+            {
+              label: "Mot de passe : M0rt4r10n — Access Denied.",
+              value: 0
+            },
+            {
+              label: "Mot de passe : Nurgl3 — Access Denied.",
+              value: 0
+            },
+            {
+              label: "Mot de passe : 125cm34ever — Access Denied.",
+              value: 0
+            },
+            {
+              label: "Mot de passe : admin — Access Denied.",
+              value: 0
+            }
+          ]
+        },
+        {
+          name: "Ellen Replay",
+          ratings: [
+            {
+              label: "Mot de passe : D1d13rD35ch4mp5m4gn3t1qu3s — Access Denied.",
+              value: 0
+            },
+            {
+              label: "Mot de passe : R4pp3113*M01*D1D13r — Access Denied.",
+              value: 0
+            },
+            {
+              label: "Mot de passe : 4l13n*150l4t10n — Access Denied.",
+              value: 0
+            },
+            {
+              label: "Mod de passe : ' or 1 -- — Access Denied.",
+              value: 0
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "2001 A Space Oddysey",
+      icon: "2001.png",
+      video: null,
       juries: [
         {
           name: "",
