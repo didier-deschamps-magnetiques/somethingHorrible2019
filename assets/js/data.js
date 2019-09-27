@@ -863,7 +863,7 @@ const Data = {
     {
       name: "Monochromix",
       icon: "monochromix.png",
-      video: null,
+      video: "mono.mp4",
       juries: [
         {
           name: "Louis-Ferdinand Sébum",
@@ -1227,7 +1227,7 @@ const Data = {
     {
       name: "B.O.U.S.E",
       icon: "bouse.png",
-      video: null,
+      video: "bouse.mp4",
       juries: [
         {
           name: "Ackboo",
@@ -1318,7 +1318,7 @@ const Data = {
     {
       name: "Locky3 Le Noeil du tigre 2 Players Only",
       icon: "locky.png",
-      video: null,
+      video: "locky.mp4",
       juries: [
         {
           name: "Ellen Replay",
@@ -1483,11 +1483,11 @@ const Data = {
             },
             {
               label: "Espérer 6 mois d'abonnement, c'est toujours continuer à aimer et à croire",
-              value: NaN
+              value: 5
             },
             {
               label: "Quand 6 mois d'abonnement sont en jeu, il est préférable de ne se fier à personne.",
-              value: NaN
+              value: 2
             },
             {
               label: "Ah, l'abonnement de 6 mois à CanardPC ! Qu'on en ait ou qu'on en manque; c'est toujours lui la cause du mal.",
@@ -1500,7 +1500,7 @@ const Data = {
     {
       name: "La Grenouille qui se veut faire aussi grosse que le Boeuf",
       icon: "",
-      video: null,
+      video: "grenouille.mp4",
       juries: [
         {
           name: "Louis-Ferdinand Sébum",
@@ -1591,7 +1591,7 @@ const Data = {
     {
       name: "TheBoyz",
       icon: "",
-      video: null,
+      video: "boyz.mp4",
       juries: [
         {
           name: "Kahn Lust",
@@ -2046,7 +2046,7 @@ const Data = {
     {
       name: "Apprends les animaux avec Buffon",
       icon: "",
-      video: null,
+      video: "buffon.mp4",
       juries: [
         {
           name: "",
@@ -2501,7 +2501,7 @@ const Data = {
     {
       name: "Canard PC L'Emission Le Jeu",
       icon: "",
-      video: null,
+      video: "cpc.mp4",
       juries: [
         {
           name: "",
@@ -2683,7 +2683,7 @@ const Data = {
     {
       name: "Fifi Brin d'acier - D. Boon Director's crotte",
       icon: "",
-      video: null,
+      video: "fifi.mp4",
       juries: [
         {
           name: "",
@@ -2865,7 +2865,7 @@ const Data = {
     {
       name: "2001 A Space Oddysey",
       icon: "2001.png",
-      video: null,
+      video: "2001.mp4",
       juries: [
         {
           name: "",
