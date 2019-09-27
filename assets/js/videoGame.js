@@ -75,11 +75,12 @@ const VideoGame = class VideoGame {
   }
 
   start() {
-    this.player.src = `./assets/videos/${this.submission.video}`;
-    this.player.type = `${this.submission.video.split('.')[1]}`;
-    this.player.autoplay = true;
-    this.player.id = "video-player";
     if(this.submission.video) {
+      this.player.src = `./assets/videos/${this.submission.video}`;
+      this.player.type = `${this.submission.video.split('.')[1]}`;
+      this.player.autoplay = true;
+      this.player.id = "video-player";
+
       this.player.addEventListener('ended', () => {
         this.player.remove();
         document.getElementById('stream').click();
