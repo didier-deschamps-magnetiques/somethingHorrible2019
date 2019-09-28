@@ -1155,7 +1155,7 @@ const Data = {
             },
             {
               label: "Assez fidèle à l'esprit original.",
-              value: NaN
+              value: 4
             }
           ]
         },
@@ -1618,20 +1618,20 @@ const Data = {
           name: "Ellen Replay",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "J'aurais écrit le scénario comme ça…",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Devant un garage entrouvert avec une voiture rouge.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Des méchants m'enlèvent.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Didier Deschamps Magnétiques les savate et me sauve les miches.",
+              value: 1
             }
           ]
         },
@@ -1639,20 +1639,20 @@ const Data = {
           name: "Louis-Ferdinand Sébum",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Le merveilleux genre du Beat'em all parfaitement massacré.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Ce jeu à peut-être le défaut d'être trop bien.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Un rythme savamment maîtrisé.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "La série originale étant peut-être trop fraîche, je n'ai pas saisi toutes les subtilités.",
+              value: 6
             }
           ]
         },
@@ -1660,20 +1660,20 @@ const Data = {
           name: "Pollynette",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Keur.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Keur, keur.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Keur, keur, keur.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Keur, keur, keur, keur, keur, keur, keur, keur, keur, keur, keur, keur.",
+              value: 0
             }
           ]
         },
@@ -2049,86 +2049,86 @@ const Data = {
       video: "buffon.mp4",
       juries: [
         {
-          name: "",
+          name: "Ellen Replay",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "L'adaptation de l'Arche de Noé.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Ça manque d'animaux affreux.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "J'aurai aimé une paire de Didier Deschamps Magnétiques.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "J'ai toujours eu du mal avec les jeux de cartes.",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Kahn Lust",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "L'adaptation de Zoondo en jeu vidéo.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "L'adaptation de Freecell en jeu vidéo.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "L'adaptation de Memory en jeu vidéo.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Je suis plus Darwin à la base.",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Noël Malware",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Si, si, c'est Cyberpunk 2077.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "L'angoisse existentielle de l'appariement des couples.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Je n'ai pas pu lancer le jeu, le bouton était en dehors de l'écran…",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Un jeu rappelant la solitude anxieuse des célibataires.",
+              value: 5
             }
           ]
         },
         {
-          name: "",
+          name: "Ackboo",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Pas sans rappeler Spore.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Pas sans rappeler Ancestors.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Pas sans rappeler Freecell.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Pas sans rappeler Creatures.",
+              value: 5
             }
           ]
         },
@@ -2140,86 +2140,86 @@ const Data = {
       video: "pmu.mp4",
       juries: [
         {
-          name: "",
+          name: "Ackboo",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Kev Adams ne serait-il pas le Molyneux du turf ?",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Une intrigue palpitante et des niveaux grandioses.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "J'aurais aimé lustrer le pelage de ma carne.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Facile à comprendre, difficile à maîtriser.",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Louis-Ferdinand Sébum",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "La cécité de l'intelligence parfaitement mise en valeur.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "L'auteur nous rappelle que la bêtise est complexe, mais simple en même temps.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "La bêtise appartient aux limites de la pensée, le jeu est donc dans le thème.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Kev Adams pourrait être le grand frère d'Izual. N'aurait-il pas plutôt fallu donner sa chance à la jeunesse ?",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Ackboo",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "J'aurais mis l'hippodrome de Montargis en toute fin.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "C'est au jeu vidéo ce que Dany Boon est au cinéma.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "C'est au jeu vidéo ce que Dany Boon est au théâtre.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "C'est au jeu vidéo ce que Dany Boon est à l'intelligence.",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Ellen Replay",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Un jeu épouvantable.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "J'ai crié lorsque la porte de la stalle s'est ouverte.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Ce jeu fait peur, mais pas dans le genre peur que j'aime.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "J'aimerai que Didier Deschamps Magnétiques m'emmène à l'hippodrome de Compiègne.",
+              value: 6
             }
           ]
         },
@@ -2231,86 +2231,86 @@ const Data = {
       video: "miserables.mp4",
       juries: [
         {
-          name: "",
+          name: "Ackboo",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "J'ai bien aimé le look and feel des armes.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Enfin quelqu'un qui ose remettre la littérature à sa place.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "De toute façon, je n'aimais pas le livre.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "J'aime pas Zola.",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Noël Malware",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Des drames familiaux…",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "De la violence…",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "De la pauvreté…",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "3",
+              value: 3
             }
           ]
         },
         {
-          name: "",
+          name: "Ellen Replay",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Une histoire sombre, mais pas de monstre tapi dans l'ombre.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Un héros submergé par la prose, un peu comme moi avec toutes mes piges.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Au moins, Didier Deschamps Magnétiques m'aurait sorti de la misère.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Si, si, c'est Cyberpunk.",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Pollynette",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Keur triste.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Keur triste, keur triste.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Keur triste, keur triste, keur triste.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Keur triste, keur triste, keur triste, keur triste.",
+              value: 4
             }
           ]
         },
@@ -2319,89 +2319,89 @@ const Data = {
     {
       name: "Insert Coin-Coin",
       icon: "",
-      video: "coin.mp4t",
+      video: "coin.mp4",
       juries: [
         {
-          name: "",
+          name: "Kahn Lust",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Un musical shooter entraînant.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Un de mes shooshoots pour le titre.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "J'ai retrouvé l'adrénaline d'un tour de périph sous la pluie avec des slicks.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Dans le thème, et avec des canards.",
+              value: 5
             }
           ]
         },
         {
-          name: "",
+          name: "Noël Malware",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Saturnin le Canard en adversaire final a démantelé mon enfance.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Assez tactique.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Une musique entraînante.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Mais ça fait une semaine que je l'ai dans la tête, la musique…",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Louis-Ferdinand Sébum",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Comme le disait Marx¹, faire l'amour à sa femme c'est comme tirer un canard endormi. (1 : Grouncho Marx).",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Ce jeu a donc relancé ma vie de couple.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Si le canard crie, c'est signe de pluie. Et de larmes.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Il suffisait de remplacer les avions par des canards pour donner un second souffle à DCS.",
+              value: 6
             }
           ]
         },
         {
-          name: "",
+          name: "Noël Malware",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Je suis anatidaephobe, alors…",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Ce canard est un scandale.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Retirer les tuyaux de Flappy Bird est payant.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Pas assez angoissant.",
+              value: 2
             }
           ]
         },
@@ -2413,86 +2413,86 @@ const Data = {
       video: "20h40.mp4",
       juries: [
         {
-          name: "",
+          name: "Ackboo",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Un présentateur avec un micro parfaitement réglé… Ridicule.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "On ne voit pas assez Montargis sur la carte.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Un jeu permettant de comprendre la difficulté d'animer une émission.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Les mêmes graphismes que Barotrauma, mais sans sous-marin. Erreur !",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Noël Malware",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Il pleut sur mon jeu, comme il pleure sur mon cœur.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "L'angoisse des habits à choisir le matin.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Il fait trop souvent beau.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Il manque les éphémérides.",
+              value: 2
             }
           ]
         },
         {
-          name: "",
+          name: "Ellen Replay",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Il ferait toujours beau avec Didier Deschamps Magnétiques.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "L'horreur d'une journée de pluie qui ferait friser mes soyeux cheveux",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Il manque la carte de la pollution lumineuse.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Je pense que je préfèrerai un autre jeu plus tard.",
+              value: 5
             }
           ]
         },
         {
-          name: "",
+          name: "Ivan le fou",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Permet de découvrir l'Oblast cédé au SFIO par Moscou.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "L'impossibilité de faire grève pour dénoncer la baisse des dotations au service public est préjudiciable.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "La cravate permet de rappeler l'asservissement des masses par la bourgeoisie.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "La météo est un problème superficiel visant à masquer les autres inégalités qui minent notre société.",
+              value: 2
             }
           ]
         },
@@ -2504,177 +2504,86 @@ const Data = {
       video: "cpc.mp4",
       juries: [
         {
-          name: "",
+          name: "Ackboo",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Un héros on ne peut plus charismatique et sympathique.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Je n'ai pas eu de problème pour m'identifier à un héros bien développé.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Le personnage principal devrait, je trouve, inspirer les prochaines fan-fictions d'E.L. James",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Honnêtement, ça aurait été moins bien avec un personnage ne connaissant pas Bluebyte.",
+              value: 6
             }
           ]
         },
         {
-          name: "",
+          name: "Noël Malware",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "L'anxiété créée par l'absence d'un présentateur à remplacer.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Dans ma partie, Ackboo est arrivé à temps.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Dommage d'avoir fait ça chez O'Gaming.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "On ne peut pas pousser Ackboo à licencier Izual.",
+              value: 3
             }
           ]
         },
         {
-          name: "",
+          name: "Louis-Ferdinand Sébum",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Mais j'ai dit Bluebyte !!!",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Le rôle de rédac' chef n'est pas assez mis en valeur.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Si, si, c'est Cyberpunk 2077.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Manque la gestion des caractères accentués.",
+              value: 4
             }
           ]
         },
         {
-          name: "",
+          name: "Pollynette",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "J'aurais dû être la panthère sauvage qui introduit l'émission.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "C'est un peu mieux que Clash Royale.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Keur.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
-            }
-          ]
-        },
-      ]
-    },
-    {
-      name: "Monochromix",
-      icon: "",
-      video: "mono.mp4",
-      juries: [
-        {
-          name: "",
-          ratings: [
-            {
-              label: "",
-              value: NaN
-            },
-            {
-              label: "",
-              value: NaN
-            },
-            {
-              label: "",
-              value: NaN
-            },
-            {
-              label: "",
-              value: NaN
-            }
-          ]
-        },
-        {
-          name: "",
-          ratings: [
-            {
-              label: "",
-              value: NaN
-            },
-            {
-              label: "",
-              value: NaN
-            },
-            {
-              label: "",
-              value: NaN
-            },
-            {
-              label: "",
-              value: NaN
-            }
-          ]
-        },
-        {
-          name: "",
-          ratings: [
-            {
-              label: "",
-              value: NaN
-            },
-            {
-              label: "",
-              value: NaN
-            },
-            {
-              label: "",
-              value: NaN
-            },
-            {
-              label: "",
-              value: NaN
-            }
-          ]
-        },
-        {
-          name: "",
-          ratings: [
-            {
-              label: "",
-              value: NaN
-            },
-            {
-              label: "",
-              value: NaN
-            },
-            {
-              label: "",
-              value: NaN
-            },
-            {
-              label: "",
-              value: NaN
+              label: "Ça me rappelle la fois ou Denis a pris m'a place et mon manteau.",
+              value: 1
             }
           ]
         },
@@ -2686,86 +2595,86 @@ const Data = {
       video: "fifi.mp4",
       juries: [
         {
-          name: "",
+          name: "Ellen Replay",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Encore un monstre sans âme.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Ma formation par Ackboo sur Kerbal m'a permis de m'en sortir.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Des roux, des frites… L'adaptation des Hauts de France ?",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Moi aussi je peux avoir des couettes si Didier Deschamps Magnétiques aime ça.",
+              value: 6
             }
           ]
         },
         {
-          name: "",
+          name: "Noël Malware",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "L'angoisse de l'enfance sans parents.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "C'est l'adaptation d'un meuble Ikea ?",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Config recommandée : Gros PC de joueur.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "J'ai pu y jouer uniquement parce que le Löve Framework a le support manette.",
+              value: 2
             }
           ]
         },
         {
-          name: "",
+          name: "Louis-Ferdinand Sébum",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Le meilleur de Dolph Lundgren enfin en jeu vidéo.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Si, si, c'est Cyberpunk 2077.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Bluebyte.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Ce jeu permet de penser sereinement la jeunesse dans une époque où se brouillent les seuils générationnels.",
+              value: 6
             }
           ]
         },
         {
-          name: "",
+          name: "Pollynette",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Hjärta.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Hjärta, hjärta.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Hjärta, hjärta, hjärta.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Hjärta, hjärta, hjärta, hjärta.",
+              value: 4
             }
           ]
         },
@@ -2868,86 +2777,177 @@ const Data = {
       video: "2001.mp4",
       juries: [
         {
-          name: "",
+          name: "Louis-Ferdinand Sébum",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Le début ressemble à Ancestors.",
+              value: 6
             },
             {
-              label: "",
-              value: NaN
+              label: "Visiblement on joue un Dalek qui extermine des singes.",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Une mise en avant de l'animalité de l'homme.",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "En tant que rédac chef, j'aurais pu coller le test à un autre rédacteur. J'aurais dû…",
+              value: 2
             }
           ]
         },
         {
-          name: "",
+          name: "Ackboo",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "On dirait les rues peu sûres de Montargis le soir.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Cool ! Interstellar, j'adore !",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "Kerbal, mais avec un vrai scénario.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "C'est dans ces moments là qu'on sait qu'on a un beau métier.",
+              value: 2
             }
           ]
         },
         {
-          name: "",
+          name: "Noël Malware",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "L'angoisse de l'interphone en panne.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Gravity ! J'adore !",
+              value: 5
             },
             {
-              label: "",
-              value: NaN
+              label: "J'ai aimé le tête à tête entre HAL et Bowman.",
+              value: 2
             },
             {
-              label: "",
-              value: NaN
+              label: "Ça aurait été plus simple à la manette.",
+              value: 1
             }
           ]
         },
         {
-          name: "",
+          name: "Ellen Replay",
           ratings: [
             {
-              label: "",
-              value: NaN
+              label: "Comme Alien Isolation, mais sans aliens…",
+              value: 1
             },
             {
-              label: "",
-              value: NaN
+              label: "Un huis-clos épouvantable.",
+              value: 3
             },
             {
-              label: "",
-              value: NaN
+              label: "Avec un pass VIP, j'ai pu aller un peu plus loin que la plèbe.",
+              value: 4
             },
             {
-              label: "",
-              value: NaN
+              label: "Les singes sont poilus et virils, comme Didier Deschamps Magnétique sauf pour les poils.",
+              value: 6
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "American Psycho PEGI3",
+      icon: "",
+      video: "psycho.mp4",
+      juries: [
+        {
+          name: "Kahn Lust",
+          ratings: [
+            {
+              label: "Comme le motard du XXIe siècle, il faut prendre soin de soi.",
+              value: 6
+            },
+            {
+              label: "Un potentiel sacrifié sur l'autel du PEGI",
+              value: 1
+            },
+            {
+              label: "Comme un MMORPG, mais pas RPG et sans les autres.",
+              value: 5
+            },
+            {
+              label: "On ne devait pas arrêter les poubelles de Steam ?",
+              value: 2
+            }
+          ]
+        },
+        {
+          name: "Louis-Ferdinand Sébum",
+          ratings: [
+            {
+              label: "Un peeling contre les sécrétions de la peau ? On veut se débarrasser de moi ?",
+              value: 3
+            },
+            {
+              label: "Et oui ! Fallait pas utiliser d'extrait de film. ",
+              value: 1
+            },
+            {
+              label: "Sans danger.",
+              value: 6
+            },
+            {
+              label: "Le niveau de la douche, m'a rappelé ma journée ÀPD.",
+              value: 2
+            }
+          ]
+        },
+        {
+          name: "Pollynette",
+          ratings: [
+            {
+              label: "keur keur keur keur keur keur keur.",
+              value: 7
+            },
+            {
+              label: "keur keur keur keur keur keur keur keur.",
+              value: 8
+            },
+            {
+              label: "keur keur keur keur keur keur keur keur keur.",
+              value: 9
+            },
+            {
+              label: "keur keur keur keur keur keur keur keur keur keur.",
+              value: 10
+            }
+          ]
+        },
+        {
+          name: "Ellen Replay",
+          ratings: [
+            {
+              label: "What ? PEGI 3 ?",
+              value: 1
+            },
+            {
+              label: "Au moins Didier Deschamps Magnétiques n'a pas de problèmes de peau.",
+              value: 6
+            },
+            {
+              label: "Quelle horreur !",
+              value: 2
+            },
+            {
+              label: "Ça se tient, mais ça manque d'un psychopathe.",
+              value: 4
             }
           ]
         },
