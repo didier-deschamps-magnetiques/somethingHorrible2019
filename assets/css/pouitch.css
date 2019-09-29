@@ -161,6 +161,7 @@ body {
   cursor: pointer;
   height: 20%;
   left: 20px;
+  overflow: hidden;
   width: 20%;
   z-index: 3;
 }

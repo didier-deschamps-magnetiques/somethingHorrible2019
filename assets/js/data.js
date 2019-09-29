@@ -1499,7 +1499,7 @@ const Data = {
     },
     {
       name: "La Grenouille qui se veut faire aussi grosse que le Boeuf",
-      icon: "",
+      icon: "grenouille.png",
       video: "grenouille.mp4",
       juries: [
         {
@@ -1590,7 +1590,7 @@ const Data = {
     },
     {
       name: "TheBoyz",
-      icon: "",
+      icon: "boyz.png",
       video: "boyz.mp4",
       juries: [
         {
@@ -1681,7 +1681,7 @@ const Data = {
     },
     {
       name: "Jeu de Trones",
-      icon: "",
+      icon: "trone.png",
       video: "got.mp4",
       juries: [
         {
@@ -1954,7 +1954,7 @@ const Data = {
     },
     {
       name: "Twitch Chat Battle",
-      icon: "",
+      icon: "pouitch.png",
       video: null,
       juries: [
         {
@@ -2045,7 +2045,7 @@ const Data = {
     },
     {
       name: "Apprends les animaux avec Buffon",
-      icon: "",
+      icon: "buffon.png",
       video: "buffon.mp4",
       juries: [
         {
@@ -2227,7 +2227,7 @@ const Data = {
     },
     {
       name: "Les Misérables Totale Destruction",
-      icon: "",
+      icon: "miserables.png",
       video: "miserables.mp4",
       juries: [
         {
@@ -2318,7 +2318,7 @@ const Data = {
     },
     {
       name: "Insert Coin-Coin",
-      icon: "",
+      icon: "coincoin.png",
       video: "coin.mp4",
       juries: [
         {
@@ -2409,7 +2409,7 @@ const Data = {
     },
     {
       name: "20h40",
-      icon: "",
+      icon: "20h40.png",
       video: "20h40.mp4",
       juries: [
         {
@@ -2500,7 +2500,7 @@ const Data = {
     },
     {
       name: "Canard PC L'Emission Le Jeu",
-      icon: "",
+      icon: "cpclemission.png",
       video: "cpc.mp4",
       juries: [
         {
@@ -2591,7 +2591,7 @@ const Data = {
     },
     {
       name: "Fifi Brin d'acier - D. Boon Director's crotte",
-      icon: "",
+      icon: "fifi.png",
       video: "fifi.mp4",
       juries: [
         {
@@ -2864,7 +2864,7 @@ const Data = {
     },
     {
       name: "American Psycho PEGI3",
-      icon: "",
+      icon: "pegi3.png",
       video: "psycho.mp4",
       juries: [
         {
@@ -2914,19 +2914,19 @@ const Data = {
           ratings: [
             {
               label: "keur keur keur keur keur keur keur.",
-              value: 7
+              value: 1
             },
             {
               label: "keur keur keur keur keur keur keur keur.",
-              value: 8
+              value: 2
             },
             {
               label: "keur keur keur keur keur keur keur keur keur.",
-              value: 9
+              value: 3
             },
             {
               label: "keur keur keur keur keur keur keur keur keur keur.",
-              value: 10
+              value: 6
             }
           ]
         },
