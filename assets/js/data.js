@@ -20,7 +20,10 @@ const Data = {
       `J'ai trouvé un jeu fait par <em>::name::</em> dans les poubelles de Steam !`,
       `Quand je pense qu'on aurait pu apprendre à jouer du piano au lieu de perdre notre temps là dessus…`,
       `C'est à mettre dans le seau à caca de <em>Noël Malware</em>`,
-      `Il paraît qu'il a payé Ninja pour qu'il stream ce jeu…`
+      `Il paraît qu'il a payé Ninja pour qu'il stream ce jeu…`,
+      `C'est pas Cyberpunk2077`,
+      `Si, il a dit bluebyte`,
+      ``
     ],
     good: [
       `Wow…`,
@@ -2952,6 +2955,370 @@ const Data = {
           ]
         },
       ]
-    }
+    },
+    {
+      name: "CPC le jeu",
+      icon: "cpcccg.png",
+      video: "cpcccg.mp4",
+      juries: [
+        {
+          name: "Ackboo",
+          ratings: [
+            {
+              label: "On peut gagner le jeu et mon respect.",
+              value: 6
+            },
+            {
+              label: "Un thème proche de Make Something Horrible Simulator, mais sans la grâce de la concurrence.",
+              value: 1
+            },
+            {
+              label: "Meilleur que l'adaptation de Gamekult.",
+              value: 5
+            },
+            {
+              label: "J'ai perdu parce que je suis sûr que j'avais des cartes marquées.",
+              value: 2
+            }
+          ]
+        },
+        {
+          name: "Louis-Ferdinand Sébum",
+          ratings: [
+            {
+              label: "Encore une énième adaptation de CanardPC.",
+              value: 3
+            },
+            {
+              label: "Tout le monde ne peut pas parodier CanardPC.",
+              value: 1
+            },
+            {
+              label: "Canard PC sans le stress du bouclage.",
+              value: 6
+            },
+            {
+              label: "Le grammage du papier n'est pas le bon.",
+              value: 2
+            }
+          ]
+        },
+        {
+          name: "Kahn Lust",
+          ratings: [
+            {
+              label: "Pour la forme, je mets un de plus qu'à Artifact.",
+              value: 1
+            },
+            {
+              label: "C'est exactement comme lors des réunions de rédaction.",
+              value: 2
+            },
+            {
+              label: "On retrouve l'ambiance unique de la rédaction.",
+              value: 3
+            },
+            {
+              label: "Un jeu qui mérite la note maximum.",
+              value: 6
+            }
+          ]
+        },
+        {
+          name: "Ellen Replay",
+          ratings: [
+            {
+              label: "Il parait que les abonnés ont une version collector.",
+              value: 6
+            },
+            {
+              label: "Je pense qu'il y aura d'autres adaptations de Canard PC, mais en mieux.",
+              value: 1
+            },
+            {
+              label: "Ça a rendu Didier Deschamps Magnétiques tout triste de devoir rajouter des jeux de dernière minute à son jeu.",
+              value: 2
+            },
+            {
+              label: "L'horreur du monde du travail.",
+              value: 5
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Game of Thrones, Episode 1: racer",
+      icon: "got-racer.png",
+      video: "gotracer.mp4",
+      juries: [
+        {
+          name: "Kahn Lust",
+          ratings: [
+            {
+              label: "Un peu comme Star Citizen, on peut acheter des animaux mais pas s'en servir.",
+              value: 6
+            },
+            {
+              label: "Peut-être qu'en VR ça aurait été mieux.",
+              value: 1
+            },
+            {
+              label: "Un jeu de course, c'est tout ce que j'aime.",
+              value: 5
+            },
+            {
+              label: "C'est l'adaptation de quoi du coup ?",
+              value: 2
+            }
+          ]
+        },
+        {
+          name: "Pollynette",
+          ratings: [
+            {
+              label: "Hodor.",
+              value: 1
+            },
+            {
+              label: "Hodor, hodor. ",
+              value: 2
+            },
+            {
+              label: "Hodor, hodor, hodor.",
+              value: 3
+            },
+            {
+              label: "Valar morghulis.",
+              value: 6
+            }
+          ]
+        },
+        {
+          name: "Noël Malware",
+          ratings: [
+            {
+              label: "Des paysages grandioses.",
+              value: 4
+            },
+            {
+              label: "Game of Thrones sans les faits divers.",
+              value: 2
+            },
+            {
+              label: "L'angoisse des glitchs qui jonchent les tableaux.",
+              value: 5
+            },
+            {
+              label: "On sent que l'auteur vise le 12/20, comme Spider.",
+              value: 6
+            }
+          ]
+        },
+        {
+          name: "Ackboo",
+          ratings: [
+            {
+              label: "Le sound design insiste bien sur le fait de ne pas manger trop vite",
+              value: 1
+            },
+            {
+              label: "J'aime quand je dois faire atterir mon véhicule.",
+              value: 6
+            },
+            {
+              label: "J'ai pu envoyer mon chat au plus près de mes Kerbanautes.",
+              value: 5
+            },
+            {
+              label: "Une simulation exemplaire à tout niveau.",
+              value: 4
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Black Shmurfs' Attack",
+      icon: "smurfs.png",
+      video: "Shmurf.mp4",
+      juries: [
+        {
+          name: "Ackboo",
+          ratings: [
+            {
+              label: "Une belle histoire sur la perception du migrant.",
+              value: 6
+            },
+            {
+              label: "Un choix timoré. S'attaquer aux avocats de Tintin aurait été plus couillu qu'à ceux de Peyo.",
+              value: 1
+            },
+            {
+              label: "L'ambiance est parfaitement rendue.",
+              value: 5
+            },
+            {
+              label: "Excellent sound design.",
+              value: 4
+            }
+          ]
+        },
+        {
+          name: "Noël Malware",
+          ratings: [
+            {
+              label: "L'angoisse existentielle de l'acceptation de la différence.",
+              value: 6
+            },
+            {
+              label: "Je me sens moi même différent de la masse.",
+              value: 1
+            },
+            {
+              label: "Une belle adaptation de la transmission du SIDA en jeu vidéo.",
+              value: 5
+            },
+            {
+              label: "La musique de fin est assez drôle et pas du tout déprimante.",
+              value: 2
+            }
+          ]
+        },
+        {
+          name: "Pollynette",
+          ratings: [
+            {
+              label: "Schtroumpf.",
+              value: 1
+            },
+            {
+              label: "Schtroumpf, schtroumpf.",
+              value: 2
+            },
+            {
+              label: "Schtroumpf, schtroumpf, schtroumpf.",
+              value: 3
+            },
+            {
+              label: "Salut les petits Schroumpfs !",
+              value: 6
+            }
+          ]
+        },
+        {
+          name: "Ellen Replay",
+          ratings: [
+            {
+              label: "L'adaptation d'une des premières œuvres traitant de zombies.",
+              value: 4
+            },
+            {
+              label: "Didier Deschamps Magnétiques, ça serait le Schtroumpf à lunettes dans le corps du Schtroumpf costaud.",
+              value: 6
+            },
+            {
+              label: "J'aurai aimé un peu plus de gore !",
+              value: 2
+            },
+            {
+              label: "La musique de fin est pas mal. Mais je préfère écouter du «Anal Distortion», l'ancien groupe de Didier Deschamps Magnétiques.",
+              value: 5
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "The Big Bang Game - The Big Bang Theory Game",
+    icon: "bigbang.png",
+  video: "bigbang.mp4",
+  juries: [
+  {
+    name: "Kahn Lust",
+    ratings: [
+      {
+        label: "Regrettable que la frise n'aille pas jusqu'à la fin de l'histoire connue, vers 40000 après JC",
+        value: 3
+      },
+      {
+        label: "Pas de référence à l'invention du carburateur. Dommage.",
+        value: 2
+      },
+      {
+        label: "L'adaptation de Civilization. Mais civilization étant déjà un jeu vidéo, c'est éliminatoire.",
+        value: 1
+      },
+      {
+        label: "Tronçonneuse !",
+        value: 4
+      }
+    ]
+  },
+  {
+    name: "Ackboo",
+    ratings: [
+      {
+        label: "On reconnait bien la célèbre pyramide de Montargis.",
+        value: 5
+      },
+      {
+        label: "Dommage de ne pas avoir la solution, il faut réfléchir.",
+        value: 1
+      },
+      {
+        label: "Un jeu dont on sort grandi.",
+        value: 6
+      },
+      {
+        label: "Je n'ai pas su placer l'invention des toilettes dans le temps.",
+        value: 2
+      }
+    ]
+  },
+  {
+    name: "Pollynette",
+    ratings: [
+      {
+        label: "Bazinga.",
+        value: 1
+      },
+      {
+        label: "Bazinga, bazinga.",
+        value: 2
+      },
+      {
+        label: "Bazinga, bazinga, bazinga.",
+        value: 3
+      },
+      {
+        label: "Bazinga, bazinga, bazinga, bazinga.",
+        value: 4
+      }
+    ]
+  },
+  {
+    name: "Ivan le fou",
+    ratings: [
+      {
+        label: "La période 1919-1989 a-t-elle été sciemment occultée ?",
+        value: 1
+      },
+      {
+        label: "Je m'en sers maintenant comme un test de recrutement.",
+        value: 6
+      },
+      {
+        label: "Grandeur et décadence de la civilisation.",
+        value: 2
+      },
+      {
+        label: "Une histoire qui laisse la part belle aux suppôts du grand capital, via une représentation unique et biaisée de la construction sociétale de l'impérialisme capitaliste.",
+        value: 4
+      }
+    ]
+  },
+]
+},
   ]
 };
