@@ -161,8 +161,20 @@ body {
   cursor: pointer;
   height: 20%;
   left: 20px;
+  overflow: hidden;
   width: 20%;
   z-index: 3;
+}
+
+#main-column #game > div:not(.big)::after {
+  background-color: transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 #main-column #desktop {
