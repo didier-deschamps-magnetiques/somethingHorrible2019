@@ -772,7 +772,7 @@ const Data = {
         }
       ]
     },
-    {
+    /*{
       name: "The B-Men",
       icon: "bmen.png",
       video: "bmen.mp4",
@@ -862,7 +862,7 @@ const Data = {
           ]
         }
       ]
-    },
+    },*/
     {
       name: "Monochromix",
       icon: "monochromix.png",
@@ -957,7 +957,7 @@ const Data = {
     {
       name: "Stalingrad",
       icon: "stalingrad.png",
-      video: null,
+      video: "stalingrad.mp4",
       juries: [
         {
           name: "Ivan сумасшедший",
@@ -3301,7 +3301,7 @@ const Data = {
     name: "Ivan le fou",
     ratings: [
       {
-        label: "La période 1919-1989 a-t-elle été sciemment occultée ?",
+        label: "La période 1917-1989 a-t-elle été sciemment occultée ?",
         value: 1
       },
       {
@@ -3320,5 +3320,187 @@ const Data = {
   },
 ]
 },
+    {
+      name: "Prosper le purineur la révolte",
+      icon: "prosper.png",
+      video: "prosper.mp4",
+      juries: [
+        {
+          name: "Izual",
+          ratings: [
+            {
+              label: "Dommage que l'on ne puisse pas jouer un personnage soumis, tel que je le suis dans la rédaction.",
+              value: 3
+            },
+            {
+              label: "C'est un jeu Bethesda, c'est ça ?",
+              value: 2
+            },
+            {
+              label: "Un wasteland dévasté, un personnage rebelle, les ingrédients d'un grand jeu.",
+              value: 6
+            },
+            {
+              label: "Je prends plus que des jeux solo maintenant. Je joue plus avec Noël comme ça (mais il continue à verir juste pour vapoter à côté de moi.",
+              value: 4
+            }
+          ]
+        },
+        {
+          name: "Ackboo",
+          ratings: [
+            {
+              label: "Un jeu me rappelant la condition des gueux de la rédaction.",
+              value: 5
+            },
+            {
+              label: "Des gueux se révolter ?",
+              value: 1
+            },
+            {
+              label: "Ça rappelle un peu Kingdom Come Deliverance.",
+              value: 6
+            },
+            {
+              label: "On sent le jeu finalisé dans le crunch pour tenir les délais.",
+              value: 2
+            }
+          ]
+        },
+        {
+          name: "Noël Malware",
+          ratings: [
+            {
+              label: "Christian Clavier, c'est encore une allusion au coup du temps passé à ne pas jouer de piano ?",
+              value: 1
+            },
+            {
+              label: "C'est que vous commencez à être relous avec ça.",
+              value: 2
+            },
+            {
+              label: "Je n'ai pas écrit que cet article, faut que vous passiez à autre chose.",
+              value: 3
+            },
+            {
+              label: "Oui, bah le seau à caca aussi faut l'oublier.",
+              value: 4
+            }
+          ]
+        },
+        {
+          name: "Ivan le fou",
+          ratings: [
+            {
+              label: "Révolution Permanente !",
+              value: 6
+            },
+            {
+              label: "L'ascension sociale doit passer par l'action violente.",
+              value: 6
+            },
+            {
+              label: "Oh ! Le premier pointeur custom de la gamejam.",
+              value: 4
+            },
+            {
+              label: "Une intrigue politique d'ultra gauche.",
+              value: 6
+            }
+          ]
+        },
+      ]
+    },
+    {
+      name: "Super Tovarich",
+      icon: "tovarich.png",
+      video: "tovarich.mp4",
+      juries: [
+        {
+          name: "Kahn Lust",
+          ratings: [
+            {
+              label: "Survie dans une cité ruche industrielle.",
+              value: 5
+            },
+            {
+              label: "Austère comme un pays socialiste.",
+              value: 2
+            },
+            {
+              label: "Il me semble que les prolétaires n'ont pas vraiment été sauvés par les camarades dans la vrai vie.",
+              value: 1
+            },
+            {
+              label: "Bof.",
+              value: 6
+            }
+          ]
+        },
+        {
+          name: "Ivan le Fou",
+          ratings: [
+            {
+              label: "J'étais pas deux fois dans la liste des testeurs ?",
+              value: 1
+            },
+            {
+              label: "L'idéal socialiste apportant ses bienfaits de par le monde.",
+              value: 5
+            },
+            {
+              label: "Une belle moustache rappelant que Mario n'est qu'un avatar de Staline.",
+              value: 6
+            },
+            {
+              label: "Décidémment, l'idéal prolétaire redevient à la mode.",
+              value: 5
+            }
+          ]
+        },
+        {
+          name: "Izual",
+          ratings: [
+            {
+              label: "Ça me rappelle un peu l'excellent jeu de rôle politique Kraland.org !",
+              value: 6
+            },
+            {
+              label: "Étant né après 1989, je ne sais pas de quoi traite cette fiction.",
+              value: 1
+            },
+            {
+              label: "Les communistes, c'est les méchants qui nous font enfermer dans des vaults, c'est ça ?",
+              value: 3
+            },
+            {
+              label: "Это раздражает, чтобы найти 4 предложения.",
+              value: 4
+            }
+          ]
+        },
+        {
+          name: "Ivan le fou",
+          ratings: [
+            {
+              label: "J'étais pas deux fois dans la liste des testeurs ?",
+              value: 6
+            },
+            {
+              label: "Debout les damnées de la terre.",
+              value: 6
+            },
+            {
+              label: "Debout les forçats de la faim.",
+              value: 6
+            },
+            {
+              label: "Hideux dans leur apothéose, les rois de la mine et du rail ont-ils jamais fait autre chose que dévaliser le travail ?",
+              value: 6
+            }
+          ]
+        },
+      ]
+    }
   ]
 };
